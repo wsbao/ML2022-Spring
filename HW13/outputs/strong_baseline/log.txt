@@ -1,0 +1,1250 @@
+{'dataset_root': './food11-hw13', 'save_dir': './outputs', 'exp_name': 'strong_baseline', 'batch_size': 64, 'lr': 0.0003, 'seed': 20220013, 'loss_fn_type': 'KD', 'weight_decay': 1e-05, 'grad_norm_max': 10, 'n_epochs': 300, 'patience': 300, 'temperature': 25.0}
+device: cuda
+[ Train | 001/300 ] loss = 5.21560, acc = 0.16694
+loss = loss_layers + (10 * lamb) * loss_logits = 5.21532 + 0.00011 * 2.49541
+[ Valid | 001/300 ] loss = 4.23052, acc = 0.22420 -> best
+loss = loss_layers + (10 * lamb) * loss_logits = 4.23023 + 0.00011 * 2.56440
+Best model found at epoch 1, saving model
+[ Train | 002/300 ] loss = 4.27845, acc = 0.22370
+loss = loss_layers + (10 * lamb) * loss_logits = 4.27739 + 0.00044 * 2.37731
+[ Valid | 002/300 ] loss = 3.65602, acc = 0.26618 -> best
+loss = loss_layers + (10 * lamb) * loss_logits = 3.65495 + 0.00044 * 2.41968
+Best model found at epoch 2, saving model
+[ Train | 003/300 ] loss = 3.71944, acc = 0.25664
+loss = loss_layers + (10 * lamb) * loss_logits = 3.71715 + 0.00100 * 2.28906
+[ Valid | 003/300 ] loss = 3.26049, acc = 0.30379 -> best
+loss = loss_layers + (10 * lamb) * loss_logits = 3.25820 + 0.00100 * 2.29749
+Best model found at epoch 3, saving model
+[ Train | 004/300 ] loss = 3.36646, acc = 0.28421
+loss = loss_layers + (10 * lamb) * loss_logits = 3.36256 + 0.00178 * 2.19304
+[ Valid | 004/300 ] loss = 2.99606, acc = 0.32420 -> best
+loss = loss_layers + (10 * lamb) * loss_logits = 2.99216 + 0.00178 * 2.19874
+Best model found at epoch 4, saving model
+[ Train | 005/300 ] loss = 3.11887, acc = 0.30752
+loss = loss_layers + (10 * lamb) * loss_logits = 3.11301 + 0.00278 * 2.10956
+[ Valid | 005/300 ] loss = 2.80322, acc = 0.34869 -> best
+loss = loss_layers + (10 * lamb) * loss_logits = 2.79736 + 0.00278 * 2.10793
+Best model found at epoch 5, saving model
+[ Train | 006/300 ] loss = 2.92755, acc = 0.33560
+loss = loss_layers + (10 * lamb) * loss_logits = 2.91947 + 0.00400 * 2.02131
+[ Valid | 006/300 ] loss = 2.65443, acc = 0.38688 -> best
+loss = loss_layers + (10 * lamb) * loss_logits = 2.64647 + 0.00400 * 1.98950
+Best model found at epoch 6, saving model
+[ Train | 007/300 ] loss = 2.78797, acc = 0.35942
+loss = loss_layers + (10 * lamb) * loss_logits = 2.77732 + 0.00544 * 1.95602
+[ Valid | 007/300 ] loss = 2.52096, acc = 0.40991 -> best
+loss = loss_layers + (10 * lamb) * loss_logits = 2.51062 + 0.00544 * 1.90038
+Best model found at epoch 7, saving model
+[ Train | 008/300 ] loss = 2.66583, acc = 0.37330
+loss = loss_layers + (10 * lamb) * loss_logits = 2.65228 + 0.00711 * 1.90572
+[ Valid | 008/300 ] loss = 2.40854, acc = 0.44461 -> best
+loss = loss_layers + (10 * lamb) * loss_logits = 2.39557 + 0.00711 * 1.82398
+Best model found at epoch 8, saving model
+[ Train | 009/300 ] loss = 2.57481, acc = 0.39469
+loss = loss_layers + (10 * lamb) * loss_logits = 2.55831 + 0.00900 * 1.83363
+[ Valid | 009/300 ] loss = 2.31220, acc = 0.46006 -> best
+loss = loss_layers + (10 * lamb) * loss_logits = 2.29656 + 0.00900 * 1.73844
+Best model found at epoch 9, saving model
+[ Train | 010/300 ] loss = 2.49224, acc = 0.42003
+loss = loss_layers + (10 * lamb) * loss_logits = 2.47284 + 0.01111 * 1.74683
+[ Valid | 010/300 ] loss = 2.25859, acc = 0.46589 -> best
+loss = loss_layers + (10 * lamb) * loss_logits = 2.23974 + 0.01111 * 1.69684
+Best model found at epoch 10, saving model
+[ Train | 011/300 ] loss = 2.42047, acc = 0.42621
+loss = loss_layers + (10 * lamb) * loss_logits = 2.39739 + 0.01344 * 1.71619
+[ Valid | 011/300 ] loss = 2.20090, acc = 0.48601 -> best
+loss = loss_layers + (10 * lamb) * loss_logits = 2.17895 + 0.01344 * 1.63223
+Best model found at epoch 11, saving model
+[ Train | 012/300 ] loss = 2.36205, acc = 0.44618
+loss = loss_layers + (10 * lamb) * loss_logits = 2.33514 + 0.01600 * 1.68139
+[ Valid | 012/300 ] loss = 2.15240, acc = 0.48980 -> best
+loss = loss_layers + (10 * lamb) * loss_logits = 2.12670 + 0.01600 * 1.60607
+Best model found at epoch 12, saving model
+[ Train | 013/300 ] loss = 2.31777, acc = 0.45479
+loss = loss_layers + (10 * lamb) * loss_logits = 2.28703 + 0.01878 * 1.63752
+[ Valid | 013/300 ] loss = 2.09703, acc = 0.51254 -> best
+loss = loss_layers + (10 * lamb) * loss_logits = 2.06812 + 0.01878 * 1.53957
+Best model found at epoch 13, saving model
+[ Train | 014/300 ] loss = 2.27051, acc = 0.46128
+loss = loss_layers + (10 * lamb) * loss_logits = 2.23571 + 0.02178 * 1.59818
+[ Valid | 014/300 ] loss = 2.06475, acc = 0.53586 -> best
+loss = loss_layers + (10 * lamb) * loss_logits = 2.03196 + 0.02178 * 1.50546
+Best model found at epoch 14, saving model
+[ Train | 015/300 ] loss = 2.24217, acc = 0.47314
+loss = loss_layers + (10 * lamb) * loss_logits = 2.20305 + 0.02500 * 1.56478
+[ Valid | 015/300 ] loss = 2.04026, acc = 0.52595
+loss = loss_layers + (10 * lamb) * loss_logits = 2.00298 + 0.02500 * 1.49152
+[ Train | 016/300 ] loss = 2.20703, acc = 0.48317
+loss = loss_layers + (10 * lamb) * loss_logits = 2.16384 + 0.02844 * 1.51821
+[ Valid | 016/300 ] loss = 2.02195, acc = 0.50408
+loss = loss_layers + (10 * lamb) * loss_logits = 1.97900 + 0.02844 * 1.51000
+[ Train | 017/300 ] loss = 2.18834, acc = 0.49189
+loss = loss_layers + (10 * lamb) * loss_logits = 2.13962 + 0.03211 * 1.51720
+[ Valid | 017/300 ] loss = 1.99457, acc = 0.53469
+loss = loss_layers + (10 * lamb) * loss_logits = 1.94945 + 0.03211 * 1.40522
+[ Train | 018/300 ] loss = 2.16356, acc = 0.49878
+loss = loss_layers + (10 * lamb) * loss_logits = 2.10994 + 0.03600 * 1.48939
+[ Valid | 018/300 ] loss = 1.96740, acc = 0.55627 -> best
+loss = loss_layers + (10 * lamb) * loss_logits = 1.91673 + 0.03600 * 1.40750
+Best model found at epoch 18, saving model
+[ Train | 019/300 ] loss = 2.14757, acc = 0.51155
+loss = loss_layers + (10 * lamb) * loss_logits = 2.08944 + 0.04011 * 1.44927
+[ Valid | 019/300 ] loss = 1.95056, acc = 0.54985
+loss = loss_layers + (10 * lamb) * loss_logits = 1.89645 + 0.04011 * 1.34902
+[ Train | 020/300 ] loss = 2.13793, acc = 0.51845
+loss = loss_layers + (10 * lamb) * loss_logits = 2.07386 + 0.04444 * 1.44156
+[ Valid | 020/300 ] loss = 1.94036, acc = 0.56939 -> best
+loss = loss_layers + (10 * lamb) * loss_logits = 1.88038 + 0.04444 * 1.34960
+Best model found at epoch 20, saving model
+[ Train | 021/300 ] loss = 2.12514, acc = 0.51774
+loss = loss_layers + (10 * lamb) * loss_logits = 2.05478 + 0.04900 * 1.43574
+[ Valid | 021/300 ] loss = 1.93054, acc = 0.60437 -> best
+loss = loss_layers + (10 * lamb) * loss_logits = 1.86619 + 0.04900 * 1.31326
+Best model found at epoch 21, saving model
+[ Train | 022/300 ] loss = 2.11263, acc = 0.52666
+loss = loss_layers + (10 * lamb) * loss_logits = 2.03702 + 0.05378 * 1.40596
+[ Valid | 022/300 ] loss = 1.92366, acc = 0.58601
+loss = loss_layers + (10 * lamb) * loss_logits = 1.85541 + 0.05378 * 1.26915
+[ Train | 023/300 ] loss = 2.10700, acc = 0.53122
+loss = loss_layers + (10 * lamb) * loss_logits = 2.02474 + 0.05878 * 1.39947
+[ Valid | 023/300 ] loss = 1.91749, acc = 0.61166 -> best
+loss = loss_layers + (10 * lamb) * loss_logits = 1.84172 + 0.05878 * 1.28895
+Best model found at epoch 23, saving model
+[ Train | 024/300 ] loss = 2.10045, acc = 0.53710
+loss = loss_layers + (10 * lamb) * loss_logits = 2.01263 + 0.06400 * 1.37210
+[ Valid | 024/300 ] loss = 1.91904, acc = 0.61020
+loss = loss_layers + (10 * lamb) * loss_logits = 1.83731 + 0.06400 * 1.27699
+[ Train | 025/300 ] loss = 2.09718, acc = 0.54896
+loss = loss_layers + (10 * lamb) * loss_logits = 2.00276 + 0.06944 * 1.35961
+[ Valid | 025/300 ] loss = 1.91342, acc = 0.59883
+loss = loss_layers + (10 * lamb) * loss_logits = 1.82503 + 0.06944 * 1.27285
+[ Train | 026/300 ] loss = 2.09421, acc = 0.54490
+loss = loss_layers + (10 * lamb) * loss_logits = 1.99261 + 0.07511 * 1.35270
+[ Valid | 026/300 ] loss = 1.91785, acc = 0.58251
+loss = loss_layers + (10 * lamb) * loss_logits = 1.82102 + 0.07511 * 1.28916
+[ Train | 027/300 ] loss = 2.09042, acc = 0.54926
+loss = loss_layers + (10 * lamb) * loss_logits = 1.98132 + 0.08100 * 1.34683
+[ Valid | 027/300 ] loss = 1.91986, acc = 0.58338
+loss = loss_layers + (10 * lamb) * loss_logits = 1.81431 + 0.08100 * 1.30306
+[ Train | 028/300 ] loss = 2.09291, acc = 0.55615
+loss = loss_layers + (10 * lamb) * loss_logits = 1.97741 + 0.08711 * 1.32594
+[ Valid | 028/300 ] loss = 1.90766, acc = 0.61108
+loss = loss_layers + (10 * lamb) * loss_logits = 1.80450 + 0.08711 * 1.18425
+[ Train | 029/300 ] loss = 2.09464, acc = 0.55271
+loss = loss_layers + (10 * lamb) * loss_logits = 1.97269 + 0.09344 * 1.30513
+[ Valid | 029/300 ] loss = 1.92043, acc = 0.58338
+loss = loss_layers + (10 * lamb) * loss_logits = 1.80360 + 0.09344 * 1.25021
+[ Train | 030/300 ] loss = 2.09725, acc = 0.57024
+loss = loss_layers + (10 * lamb) * loss_logits = 1.96696 + 0.10000 * 1.30290
+[ Valid | 030/300 ] loss = 1.92340, acc = 0.58397
+loss = loss_layers + (10 * lamb) * loss_logits = 1.79903 + 0.10000 * 1.24373
+[ Train | 031/300 ] loss = 2.10136, acc = 0.56892
+loss = loss_layers + (10 * lamb) * loss_logits = 1.96411 + 0.10678 * 1.28541
+[ Valid | 031/300 ] loss = 1.92054, acc = 0.63003 -> best
+loss = loss_layers + (10 * lamb) * loss_logits = 1.79295 + 0.10678 * 1.19485
+Best model found at epoch 31, saving model
+[ Train | 032/300 ] loss = 2.10275, acc = 0.57582
+loss = loss_layers + (10 * lamb) * loss_logits = 1.95720 + 0.11378 * 1.27923
+[ Valid | 032/300 ] loss = 1.94431, acc = 0.57843
+loss = loss_layers + (10 * lamb) * loss_logits = 1.79409 + 0.11378 * 1.32030
+[ Train | 033/300 ] loss = 2.10716, acc = 0.58058
+loss = loss_layers + (10 * lamb) * loss_logits = 1.95238 + 0.12100 * 1.27915
+[ Valid | 033/300 ] loss = 1.92994, acc = 0.62566
+loss = loss_layers + (10 * lamb) * loss_logits = 1.79061 + 0.12100 * 1.15144
+[ Train | 034/300 ] loss = 2.11282, acc = 0.58301
+loss = loss_layers + (10 * lamb) * loss_logits = 1.94910 + 0.12844 * 1.27460
+[ Valid | 034/300 ] loss = 1.93291, acc = 0.64344 -> best
+loss = loss_layers + (10 * lamb) * loss_logits = 1.78452 + 0.12844 * 1.15532
+Best model found at epoch 34, saving model
+[ Train | 035/300 ] loss = 2.11923, acc = 0.58159
+loss = loss_layers + (10 * lamb) * loss_logits = 1.94852 + 0.13611 * 1.25424
+[ Valid | 035/300 ] loss = 1.94334, acc = 0.62566
+loss = loss_layers + (10 * lamb) * loss_logits = 1.78420 + 0.13611 * 1.16914
+[ Train | 036/300 ] loss = 2.12830, acc = 0.58291
+loss = loss_layers + (10 * lamb) * loss_logits = 1.94705 + 0.14400 * 1.25868
+[ Valid | 036/300 ] loss = 1.95338, acc = 0.65831 -> best
+loss = loss_layers + (10 * lamb) * loss_logits = 1.78664 + 0.14400 * 1.15792
+Best model found at epoch 36, saving model
+[ Train | 037/300 ] loss = 2.13358, acc = 0.58494
+loss = loss_layers + (10 * lamb) * loss_logits = 1.94441 + 0.15211 * 1.24367
+[ Valid | 037/300 ] loss = 1.95963, acc = 0.61808
+loss = loss_layers + (10 * lamb) * loss_logits = 1.78476 + 0.15211 * 1.14963
+[ Train | 038/300 ] loss = 2.14069, acc = 0.58524
+loss = loss_layers + (10 * lamb) * loss_logits = 1.94502 + 0.16044 * 1.21952
+[ Valid | 038/300 ] loss = 1.95931, acc = 0.63236
+loss = loss_layers + (10 * lamb) * loss_logits = 1.77913 + 0.16044 * 1.12303
+[ Train | 039/300 ] loss = 2.14714, acc = 0.59102
+loss = loss_layers + (10 * lamb) * loss_logits = 1.93813 + 0.16900 * 1.23680
+[ Valid | 039/300 ] loss = 1.98519, acc = 0.61895
+loss = loss_layers + (10 * lamb) * loss_logits = 1.77904 + 0.16900 * 1.21981
+[ Train | 040/300 ] loss = 2.15749, acc = 0.60308
+loss = loss_layers + (10 * lamb) * loss_logits = 1.94135 + 0.17778 * 1.21578
+[ Valid | 040/300 ] loss = 1.97736, acc = 0.66822 -> best
+loss = loss_layers + (10 * lamb) * loss_logits = 1.78141 + 0.17778 * 1.10222
+Best model found at epoch 40, saving model
+[ Train | 041/300 ] loss = 2.16328, acc = 0.59923
+loss = loss_layers + (10 * lamb) * loss_logits = 1.93862 + 0.18678 * 1.20283
+[ Valid | 041/300 ] loss = 1.98868, acc = 0.65627
+loss = loss_layers + (10 * lamb) * loss_logits = 1.77873 + 0.18678 * 1.12405
+[ Train | 042/300 ] loss = 2.16761, acc = 0.60906
+loss = loss_layers + (10 * lamb) * loss_logits = 1.93317 + 0.19600 * 1.19615
+[ Valid | 042/300 ] loss = 2.01131, acc = 0.64169
+loss = loss_layers + (10 * lamb) * loss_logits = 1.78074 + 0.19600 * 1.17636
+[ Train | 043/300 ] loss = 2.18318, acc = 0.60308
+loss = loss_layers + (10 * lamb) * loss_logits = 1.93465 + 0.20544 * 1.20974
+[ Valid | 043/300 ] loss = 2.00510, acc = 0.64840
+loss = loss_layers + (10 * lamb) * loss_logits = 1.78170 + 0.20544 * 1.08740
+[ Train | 044/300 ] loss = 2.19061, acc = 0.60562
+loss = loss_layers + (10 * lamb) * loss_logits = 1.93370 + 0.21511 * 1.19431
+[ Valid | 044/300 ] loss = 2.02890, acc = 0.65189
+loss = loss_layers + (10 * lamb) * loss_logits = 1.77800 + 0.21511 * 1.16640
+[ Train | 045/300 ] loss = 2.20170, acc = 0.60937
+loss = loss_layers + (10 * lamb) * loss_logits = 1.93656 + 0.22500 * 1.17840
+[ Valid | 045/300 ] loss = 2.05319, acc = 0.63353
+loss = loss_layers + (10 * lamb) * loss_logits = 1.77995 + 0.22500 * 1.21443
+[ Train | 046/300 ] loss = 2.21190, acc = 0.61281
+loss = loss_layers + (10 * lamb) * loss_logits = 1.93480 + 0.23511 * 1.17858
+[ Valid | 046/300 ] loss = 2.05503, acc = 0.62157
+loss = loss_layers + (10 * lamb) * loss_logits = 1.78145 + 0.23511 * 1.16363
+[ Train | 047/300 ] loss = 2.22594, acc = 0.61180
+loss = loss_layers + (10 * lamb) * loss_logits = 1.93574 + 0.24544 * 1.18235
+[ Valid | 047/300 ] loss = 2.04364, acc = 0.65889
+loss = loss_layers + (10 * lamb) * loss_logits = 1.77875 + 0.24544 * 1.07922
+[ Train | 048/300 ] loss = 2.23190, acc = 0.61818
+loss = loss_layers + (10 * lamb) * loss_logits = 1.93457 + 0.25600 * 1.16145
+[ Valid | 048/300 ] loss = 2.04670, acc = 0.65860
+loss = loss_layers + (10 * lamb) * loss_logits = 1.77734 + 0.25600 * 1.05215
+[ Train | 049/300 ] loss = 2.23788, acc = 0.62244
+loss = loss_layers + (10 * lamb) * loss_logits = 1.92992 + 0.26678 * 1.15435
+[ Valid | 049/300 ] loss = 2.07676, acc = 0.63440
+loss = loss_layers + (10 * lamb) * loss_logits = 1.77745 + 0.26678 * 1.12196
+[ Train | 050/300 ] loss = 2.24964, acc = 0.62021
+loss = loss_layers + (10 * lamb) * loss_logits = 1.93420 + 0.27778 * 1.13556
+[ Valid | 050/300 ] loss = 2.07537, acc = 0.65102
+loss = loss_layers + (10 * lamb) * loss_logits = 1.77642 + 0.27778 * 1.07622
+[ Train | 051/300 ] loss = 2.26933, acc = 0.62954
+loss = loss_layers + (10 * lamb) * loss_logits = 1.93590 + 0.28900 * 1.15371
+[ Valid | 051/300 ] loss = 2.08543, acc = 0.66035
+loss = loss_layers + (10 * lamb) * loss_logits = 1.77590 + 0.28900 * 1.07105
+[ Train | 052/300 ] loss = 2.27850, acc = 0.62883
+loss = loss_layers + (10 * lamb) * loss_logits = 1.93289 + 0.30044 * 1.15034
+[ Valid | 052/300 ] loss = 2.10360, acc = 0.66152
+loss = loss_layers + (10 * lamb) * loss_logits = 1.77451 + 0.30044 * 1.09536
+[ Train | 053/300 ] loss = 2.28612, acc = 0.63785
+loss = loss_layers + (10 * lamb) * loss_logits = 1.93051 + 0.31211 * 1.13936
+[ Valid | 053/300 ] loss = 2.11546, acc = 0.65569
+loss = loss_layers + (10 * lamb) * loss_logits = 1.78314 + 0.31211 * 1.06475
+[ Train | 054/300 ] loss = 2.29968, acc = 0.63714
+loss = loss_layers + (10 * lamb) * loss_logits = 1.93507 + 0.32400 * 1.12533
+[ Valid | 054/300 ] loss = 2.13185, acc = 0.64665
+loss = loss_layers + (10 * lamb) * loss_logits = 1.78311 + 0.32400 * 1.07635
+[ Train | 055/300 ] loss = 2.30950, acc = 0.62994
+loss = loss_layers + (10 * lamb) * loss_logits = 1.93132 + 0.33611 * 1.12515
+[ Valid | 055/300 ] loss = 2.13924, acc = 0.67522 -> best
+loss = loss_layers + (10 * lamb) * loss_logits = 1.77926 + 0.33611 * 1.07102
+Best model found at epoch 55, saving model
+[ Train | 056/300 ] loss = 2.32216, acc = 0.64585
+loss = loss_layers + (10 * lamb) * loss_logits = 1.93138 + 0.34844 * 1.12149
+[ Valid | 056/300 ] loss = 2.15869, acc = 0.68426 -> best
+loss = loss_layers + (10 * lamb) * loss_logits = 1.78044 + 0.34844 * 1.08553
+Best model found at epoch 56, saving model
+[ Train | 057/300 ] loss = 2.33786, acc = 0.63906
+loss = loss_layers + (10 * lamb) * loss_logits = 1.93781 + 0.36100 * 1.10818
+[ Valid | 057/300 ] loss = 2.17904, acc = 0.69067 -> best
+loss = loss_layers + (10 * lamb) * loss_logits = 1.78104 + 0.36100 * 1.10250
+Best model found at epoch 57, saving model
+[ Train | 058/300 ] loss = 2.35167, acc = 0.63714
+loss = loss_layers + (10 * lamb) * loss_logits = 1.93770 + 0.37378 * 1.10752
+[ Valid | 058/300 ] loss = 2.17154, acc = 0.66589
+loss = loss_layers + (10 * lamb) * loss_logits = 1.78155 + 0.37378 * 1.04337
+[ Train | 059/300 ] loss = 2.36572, acc = 0.64433
+loss = loss_layers + (10 * lamb) * loss_logits = 1.94038 + 0.38678 * 1.09971
+[ Valid | 059/300 ] loss = 2.22218, acc = 0.66851
+loss = loss_layers + (10 * lamb) * loss_logits = 1.78495 + 0.38678 * 1.13047
+[ Train | 060/300 ] loss = 2.36904, acc = 0.64616
+loss = loss_layers + (10 * lamb) * loss_logits = 1.93361 + 0.40000 * 1.08858
+[ Valid | 060/300 ] loss = 2.21026, acc = 0.66152
+loss = loss_layers + (10 * lamb) * loss_logits = 1.78529 + 0.40000 * 1.06243
+[ Train | 061/300 ] loss = 2.39837, acc = 0.64058
+loss = loss_layers + (10 * lamb) * loss_logits = 1.94484 + 0.41344 * 1.09696
+[ Valid | 061/300 ] loss = 2.20099, acc = 0.68659
+loss = loss_layers + (10 * lamb) * loss_logits = 1.78315 + 0.41344 * 1.01064
+[ Train | 062/300 ] loss = 2.40322, acc = 0.64545
+loss = loss_layers + (10 * lamb) * loss_logits = 1.93793 + 0.42711 * 1.08939
+[ Valid | 062/300 ] loss = 2.22856, acc = 0.66239
+loss = loss_layers + (10 * lamb) * loss_logits = 1.78470 + 0.42711 * 1.03922
+[ Train | 063/300 ] loss = 2.41499, acc = 0.65254
+loss = loss_layers + (10 * lamb) * loss_logits = 1.93939 + 0.44100 * 1.07847
+[ Valid | 063/300 ] loss = 2.25342, acc = 0.65802
+loss = loss_layers + (10 * lamb) * loss_logits = 1.78848 + 0.44100 * 1.05428
+[ Train | 064/300 ] loss = 2.42916, acc = 0.66116
+loss = loss_layers + (10 * lamb) * loss_logits = 1.93791 + 0.45511 * 1.07941
+[ Valid | 064/300 ] loss = 2.23820, acc = 0.69854 -> best
+loss = loss_layers + (10 * lamb) * loss_logits = 1.78657 + 0.45511 * 0.99236
+Best model found at epoch 64, saving model
+[ Train | 065/300 ] loss = 2.44353, acc = 0.66238
+loss = loss_layers + (10 * lamb) * loss_logits = 1.94211 + 0.46944 * 1.06810
+[ Valid | 065/300 ] loss = 2.27292, acc = 0.67230
+loss = loss_layers + (10 * lamb) * loss_logits = 1.78576 + 0.46944 * 1.03775
+[ Train | 066/300 ] loss = 2.45747, acc = 0.65994
+loss = loss_layers + (10 * lamb) * loss_logits = 1.93865 + 0.48400 * 1.07194
+[ Valid | 066/300 ] loss = 2.27131, acc = 0.69563
+loss = loss_layers + (10 * lamb) * loss_logits = 1.78676 + 0.48400 * 1.00113
+[ Train | 067/300 ] loss = 2.47521, acc = 0.65741
+loss = loss_layers + (10 * lamb) * loss_logits = 1.94024 + 0.49878 * 1.07255
+[ Valid | 067/300 ] loss = 2.37210, acc = 0.64840
+loss = loss_layers + (10 * lamb) * loss_logits = 1.78871 + 0.49878 * 1.16965
+[ Train | 068/300 ] loss = 2.49454, acc = 0.66947
+loss = loss_layers + (10 * lamb) * loss_logits = 1.94702 + 0.51378 * 1.06566
+[ Valid | 068/300 ] loss = 2.32769, acc = 0.66327
+loss = loss_layers + (10 * lamb) * loss_logits = 1.78933 + 0.51378 * 1.04784
+[ Train | 069/300 ] loss = 2.50647, acc = 0.66684
+loss = loss_layers + (10 * lamb) * loss_logits = 1.94318 + 0.52900 * 1.06481
+[ Valid | 069/300 ] loss = 2.31292, acc = 0.70146 -> best
+loss = loss_layers + (10 * lamb) * loss_logits = 1.79011 + 0.52900 * 0.98831
+Best model found at epoch 69, saving model
+[ Train | 070/300 ] loss = 2.52111, acc = 0.66268
+loss = loss_layers + (10 * lamb) * loss_logits = 1.94730 + 0.54444 * 1.05393
+[ Valid | 070/300 ] loss = 2.32718, acc = 0.70496 -> best
+loss = loss_layers + (10 * lamb) * loss_logits = 1.79192 + 0.54444 * 0.98313
+Best model found at epoch 70, saving model
+[ Train | 071/300 ] loss = 2.53914, acc = 0.66846
+loss = loss_layers + (10 * lamb) * loss_logits = 1.94654 + 0.56011 * 1.05800
+[ Valid | 071/300 ] loss = 2.35608, acc = 0.69475
+loss = loss_layers + (10 * lamb) * loss_logits = 1.79286 + 0.56011 * 1.00555
+[ Train | 072/300 ] loss = 2.55318, acc = 0.66319
+loss = loss_layers + (10 * lamb) * loss_logits = 1.94580 + 0.57600 * 1.05449
+[ Valid | 072/300 ] loss = 2.35970, acc = 0.68717
+loss = loss_layers + (10 * lamb) * loss_logits = 1.79290 + 0.57600 * 0.98404
+[ Train | 073/300 ] loss = 2.56632, acc = 0.67576
+loss = loss_layers + (10 * lamb) * loss_logits = 1.94737 + 0.59211 * 1.04533
+[ Valid | 073/300 ] loss = 2.39474, acc = 0.67726
+loss = loss_layers + (10 * lamb) * loss_logits = 1.79565 + 0.59211 * 1.01178
+[ Train | 074/300 ] loss = 2.58131, acc = 0.66927
+loss = loss_layers + (10 * lamb) * loss_logits = 1.94867 + 0.60844 * 1.03977
+[ Valid | 074/300 ] loss = 2.39175, acc = 0.70729 -> best
+loss = loss_layers + (10 * lamb) * loss_logits = 1.79339 + 0.60844 * 0.98343
+Best model found at epoch 74, saving model
+[ Train | 075/300 ] loss = 2.60317, acc = 0.67707
+loss = loss_layers + (10 * lamb) * loss_logits = 1.95211 + 0.62500 * 1.04170
+[ Valid | 075/300 ] loss = 2.45197, acc = 0.66822
+loss = loss_layers + (10 * lamb) * loss_logits = 1.79488 + 0.62500 * 1.05134
+[ Train | 076/300 ] loss = 2.61998, acc = 0.67393
+loss = loss_layers + (10 * lamb) * loss_logits = 1.95161 + 0.64178 * 1.04144
+[ Valid | 076/300 ] loss = 2.48217, acc = 0.68017
+loss = loss_layers + (10 * lamb) * loss_logits = 1.79743 + 0.64178 * 1.06694
+[ Train | 077/300 ] loss = 2.63013, acc = 0.67261
+loss = loss_layers + (10 * lamb) * loss_logits = 1.95356 + 0.65878 * 1.02700
+[ Valid | 077/300 ] loss = 2.47973, acc = 0.68980
+loss = loss_layers + (10 * lamb) * loss_logits = 1.79727 + 0.65878 * 1.03594
+[ Train | 078/300 ] loss = 2.64495, acc = 0.67971
+loss = loss_layers + (10 * lamb) * loss_logits = 1.95190 + 0.67600 * 1.02523
+[ Valid | 078/300 ] loss = 2.45150, acc = 0.70408
+loss = loss_layers + (10 * lamb) * loss_logits = 1.79923 + 0.67600 * 0.96490
+[ Train | 079/300 ] loss = 2.66842, acc = 0.68214
+loss = loss_layers + (10 * lamb) * loss_logits = 1.96001 + 0.69344 * 1.02159
+[ Valid | 079/300 ] loss = 2.49707, acc = 0.70875 -> best
+loss = loss_layers + (10 * lamb) * loss_logits = 1.79904 + 0.69344 * 1.00662
+Best model found at epoch 79, saving model
+[ Train | 080/300 ] loss = 2.68040, acc = 0.68599
+loss = loss_layers + (10 * lamb) * loss_logits = 1.95921 + 0.71111 * 1.01417
+[ Valid | 080/300 ] loss = 2.51056, acc = 0.71720 -> best
+loss = loss_layers + (10 * lamb) * loss_logits = 1.80039 + 0.71111 * 0.99868
+Best model found at epoch 80, saving model
+[ Train | 081/300 ] loss = 2.70559, acc = 0.68650
+loss = loss_layers + (10 * lamb) * loss_logits = 1.95763 + 0.72900 * 1.02602
+[ Valid | 081/300 ] loss = 2.48876, acc = 0.72507 -> best
+loss = loss_layers + (10 * lamb) * loss_logits = 1.80052 + 0.72900 * 0.94408
+Best model found at epoch 81, saving model
+[ Train | 082/300 ] loss = 2.70408, acc = 0.68366
+loss = loss_layers + (10 * lamb) * loss_logits = 1.95524 + 0.74711 * 1.00231
+[ Valid | 082/300 ] loss = 2.53763, acc = 0.70408
+loss = loss_layers + (10 * lamb) * loss_logits = 1.80207 + 0.74711 * 0.98454
+[ Train | 083/300 ] loss = 2.73544, acc = 0.68620
+loss = loss_layers + (10 * lamb) * loss_logits = 1.95911 + 0.76544 * 1.01422
+[ Valid | 083/300 ] loss = 2.54289, acc = 0.71429
+loss = loss_layers + (10 * lamb) * loss_logits = 1.80428 + 0.76544 * 0.96494
+[ Train | 084/300 ] loss = 2.74253, acc = 0.68782
+loss = loss_layers + (10 * lamb) * loss_logits = 1.96395 + 0.78400 * 0.99309
+[ Valid | 084/300 ] loss = 2.58330, acc = 0.70875
+loss = loss_layers + (10 * lamb) * loss_logits = 1.80517 + 0.78400 * 0.99252
+[ Train | 085/300 ] loss = 2.75780, acc = 0.68944
+loss = loss_layers + (10 * lamb) * loss_logits = 1.95661 + 0.80278 * 0.99802
+[ Valid | 085/300 ] loss = 2.62043, acc = 0.68455
+loss = loss_layers + (10 * lamb) * loss_logits = 1.80627 + 0.80278 * 1.01417
+[ Train | 086/300 ] loss = 2.77551, acc = 0.69471
+loss = loss_layers + (10 * lamb) * loss_logits = 1.96311 + 0.82178 * 0.98859
+[ Valid | 086/300 ] loss = 2.60000, acc = 0.69329
+loss = loss_layers + (10 * lamb) * loss_logits = 1.80476 + 0.82178 * 0.96771
+[ Train | 087/300 ] loss = 2.80421, acc = 0.69076
+loss = loss_layers + (10 * lamb) * loss_logits = 1.96251 + 0.84100 * 1.00083
+[ Valid | 087/300 ] loss = 2.61743, acc = 0.73324 -> best
+loss = loss_layers + (10 * lamb) * loss_logits = 1.80879 + 0.84100 * 0.96153
+Best model found at epoch 87, saving model
+[ Train | 088/300 ] loss = 2.82294, acc = 0.69167
+loss = loss_layers + (10 * lamb) * loss_logits = 1.96096 + 0.86044 * 1.00178
+[ Valid | 088/300 ] loss = 2.67216, acc = 0.67930
+loss = loss_layers + (10 * lamb) * loss_logits = 1.80647 + 0.86044 * 1.00609
+[ Train | 089/300 ] loss = 2.82904, acc = 0.69775
+loss = loss_layers + (10 * lamb) * loss_logits = 1.95948 + 0.88011 * 0.98801
+[ Valid | 089/300 ] loss = 2.66387, acc = 0.70729
+loss = loss_layers + (10 * lamb) * loss_logits = 1.81245 + 0.88011 * 0.96740
+[ Train | 090/300 ] loss = 2.84693, acc = 0.70596
+loss = loss_layers + (10 * lamb) * loss_logits = 1.96648 + 0.90000 * 0.97828
+[ Valid | 090/300 ] loss = 2.67946, acc = 0.71895
+loss = loss_layers + (10 * lamb) * loss_logits = 1.81003 + 0.90000 * 0.96603
+[ Train | 091/300 ] loss = 2.86243, acc = 0.70170
+loss = loss_layers + (10 * lamb) * loss_logits = 1.96630 + 0.92011 * 0.97394
+[ Valid | 091/300 ] loss = 2.74231, acc = 0.70962
+loss = loss_layers + (10 * lamb) * loss_logits = 1.81085 + 0.92011 * 1.01234
+[ Train | 092/300 ] loss = 2.88140, acc = 0.70018
+loss = loss_layers + (10 * lamb) * loss_logits = 1.96098 + 0.94044 * 0.97871
+[ Valid | 092/300 ] loss = 2.69212, acc = 0.71399
+loss = loss_layers + (10 * lamb) * loss_logits = 1.81139 + 0.94044 * 0.93650
+[ Train | 093/300 ] loss = 2.90573, acc = 0.70464
+loss = loss_layers + (10 * lamb) * loss_logits = 1.96804 + 0.96100 * 0.97575
+[ Valid | 093/300 ] loss = 2.80890, acc = 0.69155
+loss = loss_layers + (10 * lamb) * loss_logits = 1.81673 + 0.96100 * 1.03243
+[ Train | 094/300 ] loss = 2.93316, acc = 0.69684
+loss = loss_layers + (10 * lamb) * loss_logits = 1.96920 + 0.98178 * 0.98185
+[ Valid | 094/300 ] loss = 2.75764, acc = 0.72478
+loss = loss_layers + (10 * lamb) * loss_logits = 1.81594 + 0.98178 * 0.95918
+[ Train | 095/300 ] loss = 2.94716, acc = 0.70799
+loss = loss_layers + (10 * lamb) * loss_logits = 1.97219 + 1.00278 * 0.97227
+[ Valid | 095/300 ] loss = 2.75715, acc = 0.73265
+loss = loss_layers + (10 * lamb) * loss_logits = 1.81689 + 1.00278 * 0.93765
+[ Train | 096/300 ] loss = 2.96578, acc = 0.71113
+loss = loss_layers + (10 * lamb) * loss_logits = 1.97091 + 1.02400 * 0.97155
+[ Valid | 096/300 ] loss = 2.80361, acc = 0.72157
+loss = loss_layers + (10 * lamb) * loss_logits = 1.81754 + 1.02400 * 0.96296
+[ Train | 097/300 ] loss = 2.99262, acc = 0.71093
+loss = loss_layers + (10 * lamb) * loss_logits = 1.97319 + 1.04544 * 0.97511
+[ Valid | 097/300 ] loss = 2.85324, acc = 0.72303
+loss = loss_layers + (10 * lamb) * loss_logits = 1.81791 + 1.04544 * 0.99032
+[ Train | 098/300 ] loss = 3.00516, acc = 0.71356
+loss = loss_layers + (10 * lamb) * loss_logits = 1.97387 + 1.06711 * 0.96643
+[ Valid | 098/300 ] loss = 2.91434, acc = 0.70292
+loss = loss_layers + (10 * lamb) * loss_logits = 1.82059 + 1.06711 * 1.02497
+[ Train | 099/300 ] loss = 3.02003, acc = 0.70910
+loss = loss_layers + (10 * lamb) * loss_logits = 1.97455 + 1.08900 * 0.96003
+[ Valid | 099/300 ] loss = 2.84732, acc = 0.73790 -> best
+loss = loss_layers + (10 * lamb) * loss_logits = 1.82112 + 1.08900 * 0.94234
+Best model found at epoch 99, saving model
+[ Train | 100/300 ] loss = 3.04921, acc = 0.71032
+loss = loss_layers + (10 * lamb) * loss_logits = 1.97835 + 1.11111 * 0.96377
+[ Valid | 100/300 ] loss = 2.89026, acc = 0.71691
+loss = loss_layers + (10 * lamb) * loss_logits = 1.82555 + 1.11111 * 0.95824
+[ Train | 101/300 ] loss = 3.05572, acc = 0.71670
+loss = loss_layers + (10 * lamb) * loss_logits = 1.97630 + 1.13344 * 0.95234
+[ Valid | 101/300 ] loss = 2.87025, acc = 0.71866
+loss = loss_layers + (10 * lamb) * loss_logits = 1.82079 + 1.13344 * 0.92591
+[ Train | 102/300 ] loss = 3.08895, acc = 0.71741
+loss = loss_layers + (10 * lamb) * loss_logits = 1.97616 + 1.15600 * 0.96262
+[ Valid | 102/300 ] loss = 2.94477, acc = 0.71574
+loss = loss_layers + (10 * lamb) * loss_logits = 1.82517 + 1.15600 * 0.96851
+[ Train | 103/300 ] loss = 3.11417, acc = 0.71569
+loss = loss_layers + (10 * lamb) * loss_logits = 1.98351 + 1.17878 * 0.95918
+[ Valid | 103/300 ] loss = 3.04828, acc = 0.69679
+loss = loss_layers + (10 * lamb) * loss_logits = 1.82906 + 1.17878 * 1.03431
+[ Train | 104/300 ] loss = 3.11621, acc = 0.71762
+loss = loss_layers + (10 * lamb) * loss_logits = 1.98033 + 1.20178 * 0.94516
+[ Valid | 104/300 ] loss = 2.99907, acc = 0.70962
+loss = loss_layers + (10 * lamb) * loss_logits = 1.82646 + 1.20178 * 0.97574
+[ Train | 105/300 ] loss = 3.13663, acc = 0.72035
+loss = loss_layers + (10 * lamb) * loss_logits = 1.98356 + 1.22500 * 0.94128
+[ Valid | 105/300 ] loss = 3.01884, acc = 0.72041
+loss = loss_layers + (10 * lamb) * loss_logits = 1.82984 + 1.22500 * 0.97061
+[ Train | 106/300 ] loss = 3.15988, acc = 0.71640
+loss = loss_layers + (10 * lamb) * loss_logits = 1.98521 + 1.24844 * 0.94091
+[ Valid | 106/300 ] loss = 3.06424, acc = 0.72945
+loss = loss_layers + (10 * lamb) * loss_logits = 1.82883 + 1.24844 * 0.98956
+[ Train | 107/300 ] loss = 3.19572, acc = 0.72289
+loss = loss_layers + (10 * lamb) * loss_logits = 1.98932 + 1.27211 * 0.94835
+[ Valid | 107/300 ] loss = 2.99925, acc = 0.72362
+loss = loss_layers + (10 * lamb) * loss_logits = 1.83278 + 1.27211 * 0.91696
+[ Train | 108/300 ] loss = 3.20061, acc = 0.72420
+loss = loss_layers + (10 * lamb) * loss_logits = 1.98510 + 1.29600 * 0.93790
+[ Valid | 108/300 ] loss = 3.10340, acc = 0.73090
+loss = loss_layers + (10 * lamb) * loss_logits = 1.83483 + 1.29600 * 0.97884
+[ Train | 109/300 ] loss = 3.23503, acc = 0.72988
+loss = loss_layers + (10 * lamb) * loss_logits = 1.98651 + 1.32011 * 0.94577
+[ Valid | 109/300 ] loss = 3.22239, acc = 0.70583
+loss = loss_layers + (10 * lamb) * loss_logits = 1.83174 + 1.32011 * 1.05343
+[ Train | 110/300 ] loss = 3.24067, acc = 0.72349
+loss = loss_layers + (10 * lamb) * loss_logits = 1.98969 + 1.34444 * 0.93048
+[ Valid | 110/300 ] loss = 3.13801, acc = 0.72274
+loss = loss_layers + (10 * lamb) * loss_logits = 1.83363 + 1.34444 * 0.97020
+[ Train | 111/300 ] loss = 3.26548, acc = 0.72755
+loss = loss_layers + (10 * lamb) * loss_logits = 1.99356 + 1.36900 * 0.92909
+[ Valid | 111/300 ] loss = 3.16526, acc = 0.70845
+loss = loss_layers + (10 * lamb) * loss_logits = 1.83488 + 1.36900 * 0.97179
+[ Train | 112/300 ] loss = 3.29074, acc = 0.72643
+loss = loss_layers + (10 * lamb) * loss_logits = 1.99505 + 1.39378 * 0.92962
+[ Valid | 112/300 ] loss = 3.22192, acc = 0.71983
+loss = loss_layers + (10 * lamb) * loss_logits = 1.83581 + 1.39378 * 0.99450
+[ Train | 113/300 ] loss = 3.32095, acc = 0.72258
+loss = loss_layers + (10 * lamb) * loss_logits = 1.99659 + 1.41878 * 0.93345
+[ Valid | 113/300 ] loss = 3.16002, acc = 0.73032
+loss = loss_layers + (10 * lamb) * loss_logits = 1.83798 + 1.41878 * 0.93182
+[ Train | 114/300 ] loss = 3.32140, acc = 0.73018
+loss = loss_layers + (10 * lamb) * loss_logits = 1.99389 + 1.44400 * 0.91933
+[ Valid | 114/300 ] loss = 3.37273, acc = 0.71778
+loss = loss_layers + (10 * lamb) * loss_logits = 1.83696 + 1.44400 * 1.06355
+[ Train | 115/300 ] loss = 3.36489, acc = 0.72339
+loss = loss_layers + (10 * lamb) * loss_logits = 1.99782 + 1.46944 * 0.93033
+[ Valid | 115/300 ] loss = 3.18177, acc = 0.73848 -> best
+loss = loss_layers + (10 * lamb) * loss_logits = 1.83898 + 1.46944 * 0.91381
+Best model found at epoch 115, saving model
+[ Train | 116/300 ] loss = 3.37402, acc = 0.73383
+loss = loss_layers + (10 * lamb) * loss_logits = 1.99785 + 1.49511 * 0.92045
+[ Valid | 116/300 ] loss = 3.23620, acc = 0.74373 -> best
+loss = loss_layers + (10 * lamb) * loss_logits = 1.84496 + 1.49511 * 0.93053
+Best model found at epoch 116, saving model
+[ Train | 117/300 ] loss = 3.40962, acc = 0.73262
+loss = loss_layers + (10 * lamb) * loss_logits = 2.00356 + 1.52100 * 0.92443
+[ Valid | 117/300 ] loss = 3.27842, acc = 0.72449
+loss = loss_layers + (10 * lamb) * loss_logits = 1.84538 + 1.52100 * 0.94217
+[ Train | 118/300 ] loss = 3.41111, acc = 0.74133
+loss = loss_layers + (10 * lamb) * loss_logits = 1.99983 + 1.54711 * 0.91220
+[ Valid | 118/300 ] loss = 3.24285, acc = 0.74694 -> best
+loss = loss_layers + (10 * lamb) * loss_logits = 1.84233 + 1.54711 * 0.90525
+Best model found at epoch 118, saving model
+[ Train | 119/300 ] loss = 3.43592, acc = 0.73971
+loss = loss_layers + (10 * lamb) * loss_logits = 2.00196 + 1.57344 * 0.91135
+[ Valid | 119/300 ] loss = 3.29536, acc = 0.73149
+loss = loss_layers + (10 * lamb) * loss_logits = 1.84596 + 1.57344 * 0.92117
+[ Train | 120/300 ] loss = 3.45880, acc = 0.73556
+loss = loss_layers + (10 * lamb) * loss_logits = 2.00401 + 1.60000 * 0.90925
+[ Valid | 120/300 ] loss = 3.54759, acc = 0.69504
+loss = loss_layers + (10 * lamb) * loss_logits = 1.84585 + 1.60000 * 1.06359
+[ Train | 121/300 ] loss = 3.49305, acc = 0.74042
+loss = loss_layers + (10 * lamb) * loss_logits = 2.00539 + 1.62678 * 0.91448
+[ Valid | 121/300 ] loss = 3.46992, acc = 0.70466
+loss = loss_layers + (10 * lamb) * loss_logits = 1.85086 + 1.62678 * 0.99526
+[ Train | 122/300 ] loss = 3.51131, acc = 0.73546
+loss = loss_layers + (10 * lamb) * loss_logits = 2.00872 + 1.65378 * 0.90858
+[ Valid | 122/300 ] loss = 3.34565, acc = 0.74606
+loss = loss_layers + (10 * lamb) * loss_logits = 1.85325 + 1.65378 * 0.90242
+[ Train | 123/300 ] loss = 3.53877, acc = 0.73221
+loss = loss_layers + (10 * lamb) * loss_logits = 2.00800 + 1.68100 * 0.91063
+[ Valid | 123/300 ] loss = 3.41960, acc = 0.73936
+loss = loss_layers + (10 * lamb) * loss_logits = 1.84934 + 1.68100 * 0.93413
+[ Train | 124/300 ] loss = 3.54182, acc = 0.74478
+loss = loss_layers + (10 * lamb) * loss_logits = 2.00997 + 1.70844 * 0.89663
+[ Valid | 124/300 ] loss = 3.46278, acc = 0.72216
+loss = loss_layers + (10 * lamb) * loss_logits = 1.85088 + 1.70844 * 0.94349
+[ Train | 125/300 ] loss = 3.58059, acc = 0.73748
+loss = loss_layers + (10 * lamb) * loss_logits = 2.01188 + 1.73611 * 0.90358
+[ Valid | 125/300 ] loss = 3.46403, acc = 0.74781 -> best
+loss = loss_layers + (10 * lamb) * loss_logits = 1.85276 + 1.73611 * 0.92809
+Best model found at epoch 125, saving model
+[ Train | 126/300 ] loss = 3.59256, acc = 0.74589
+loss = loss_layers + (10 * lamb) * loss_logits = 2.01109 + 1.76400 * 0.89653
+[ Valid | 126/300 ] loss = 3.54053, acc = 0.73207
+loss = loss_layers + (10 * lamb) * loss_logits = 1.85272 + 1.76400 * 0.95681
+[ Train | 127/300 ] loss = 3.63639, acc = 0.74012
+loss = loss_layers + (10 * lamb) * loss_logits = 2.01776 + 1.79211 * 0.90320
+[ Valid | 127/300 ] loss = 3.49282, acc = 0.74781
+loss = loss_layers + (10 * lamb) * loss_logits = 1.85977 + 1.79211 * 0.91124
+[ Train | 128/300 ] loss = 3.63096, acc = 0.74529
+loss = loss_layers + (10 * lamb) * loss_logits = 2.01428 + 1.82044 * 0.88807
+[ Valid | 128/300 ] loss = 3.50010, acc = 0.75510 -> best
+loss = loss_layers + (10 * lamb) * loss_logits = 1.85779 + 1.82044 * 0.90215
+Best model found at epoch 128, saving model
+[ Train | 129/300 ] loss = 3.67852, acc = 0.74326
+loss = loss_layers + (10 * lamb) * loss_logits = 2.01520 + 1.84900 * 0.89958
+[ Valid | 129/300 ] loss = 3.50651, acc = 0.75685 -> best
+loss = loss_layers + (10 * lamb) * loss_logits = 1.85665 + 1.84900 * 0.89230
+Best model found at epoch 129, saving model
+[ Train | 130/300 ] loss = 3.68533, acc = 0.75542
+loss = loss_layers + (10 * lamb) * loss_logits = 2.01912 + 1.87778 * 0.88733
+[ Valid | 130/300 ] loss = 3.64749, acc = 0.72886
+loss = loss_layers + (10 * lamb) * loss_logits = 1.86546 + 1.87778 * 0.94901
+[ Train | 131/300 ] loss = 3.70592, acc = 0.75137
+loss = loss_layers + (10 * lamb) * loss_logits = 2.01770 + 1.90678 * 0.88538
+[ Valid | 131/300 ] loss = 3.56494, acc = 0.74694
+loss = loss_layers + (10 * lamb) * loss_logits = 1.85884 + 1.90678 * 0.89476
+[ Train | 132/300 ] loss = 3.73040, acc = 0.75319
+loss = loss_layers + (10 * lamb) * loss_logits = 2.02152 + 1.93600 * 0.88269
+[ Valid | 132/300 ] loss = 3.65375, acc = 0.74431
+loss = loss_layers + (10 * lamb) * loss_logits = 1.85949 + 1.93600 * 0.92679
+[ Train | 133/300 ] loss = 3.76426, acc = 0.75350
+loss = loss_layers + (10 * lamb) * loss_logits = 2.02111 + 1.96544 * 0.88690
+[ Valid | 133/300 ] loss = 3.68838, acc = 0.73120
+loss = loss_layers + (10 * lamb) * loss_logits = 1.86782 + 1.96544 * 0.92628
+[ Train | 134/300 ] loss = 3.77347, acc = 0.75552
+loss = loss_layers + (10 * lamb) * loss_logits = 2.02079 + 1.99511 * 0.87849
+[ Valid | 134/300 ] loss = 3.91501, acc = 0.71924
+loss = loss_layers + (10 * lamb) * loss_logits = 1.86328 + 1.99511 * 1.02838
+[ Train | 135/300 ] loss = 3.78742, acc = 0.75897
+loss = loss_layers + (10 * lamb) * loss_logits = 2.02532 + 2.02500 * 0.87017
+[ Valid | 135/300 ] loss = 3.73782, acc = 0.74315
+loss = loss_layers + (10 * lamb) * loss_logits = 1.86471 + 2.02500 * 0.92499
+[ Train | 136/300 ] loss = 3.81251, acc = 0.75542
+loss = loss_layers + (10 * lamb) * loss_logits = 2.02007 + 2.05511 * 0.87218
+[ Valid | 136/300 ] loss = 3.73332, acc = 0.75889 -> best
+loss = loss_layers + (10 * lamb) * loss_logits = 1.86619 + 2.05511 * 0.90853
+Best model found at epoch 136, saving model
+[ Train | 137/300 ] loss = 3.82749, acc = 0.76039
+loss = loss_layers + (10 * lamb) * loss_logits = 2.02454 + 2.08544 * 0.86454
+[ Valid | 137/300 ] loss = 3.89123, acc = 0.73499
+loss = loss_layers + (10 * lamb) * loss_logits = 1.86738 + 2.08544 * 0.97046
+[ Train | 138/300 ] loss = 3.86949, acc = 0.75431
+loss = loss_layers + (10 * lamb) * loss_logits = 2.02816 + 2.11600 * 0.87019
+[ Valid | 138/300 ] loss = 3.84875, acc = 0.74694
+loss = loss_layers + (10 * lamb) * loss_logits = 1.86686 + 2.11600 * 0.93662
+[ Train | 139/300 ] loss = 3.88374, acc = 0.75887
+loss = loss_layers + (10 * lamb) * loss_logits = 2.02742 + 2.14678 * 0.86470
+[ Valid | 139/300 ] loss = 3.83156, acc = 0.75073
+loss = loss_layers + (10 * lamb) * loss_logits = 1.86757 + 2.14678 * 0.91485
+[ Train | 140/300 ] loss = 3.91331, acc = 0.75775
+loss = loss_layers + (10 * lamb) * loss_logits = 2.03077 + 2.17778 * 0.86443
+[ Valid | 140/300 ] loss = 3.89364, acc = 0.75044
+loss = loss_layers + (10 * lamb) * loss_logits = 1.87251 + 2.17778 * 0.92807
+[ Train | 141/300 ] loss = 3.93893, acc = 0.76029
+loss = loss_layers + (10 * lamb) * loss_logits = 2.03139 + 2.20900 * 0.86353
+[ Valid | 141/300 ] loss = 4.03713, acc = 0.72915
+loss = loss_layers + (10 * lamb) * loss_logits = 1.87458 + 2.20900 * 0.97897
+[ Train | 142/300 ] loss = 3.97255, acc = 0.76140
+loss = loss_layers + (10 * lamb) * loss_logits = 2.03401 + 2.24044 * 0.86525
+[ Valid | 142/300 ] loss = 3.99369, acc = 0.73353
+loss = loss_layers + (10 * lamb) * loss_logits = 1.87456 + 2.24044 * 0.94585
+[ Train | 143/300 ] loss = 3.97754, acc = 0.76181
+loss = loss_layers + (10 * lamb) * loss_logits = 2.02913 + 2.27211 * 0.85753
+[ Valid | 143/300 ] loss = 3.99476, acc = 0.74490
+loss = loss_layers + (10 * lamb) * loss_logits = 1.87499 + 2.27211 * 0.93295
+[ Train | 144/300 ] loss = 4.00648, acc = 0.76769
+loss = loss_layers + (10 * lamb) * loss_logits = 2.03406 + 2.30400 * 0.85608
+[ Valid | 144/300 ] loss = 4.10483, acc = 0.73790
+loss = loss_layers + (10 * lamb) * loss_logits = 1.87642 + 2.30400 * 0.96719
+[ Train | 145/300 ] loss = 4.04856, acc = 0.76708
+loss = loss_layers + (10 * lamb) * loss_logits = 2.03427 + 2.33611 * 0.86224
+[ Valid | 145/300 ] loss = 4.04214, acc = 0.74723
+loss = loss_layers + (10 * lamb) * loss_logits = 1.87484 + 2.33611 * 0.92774
+[ Train | 146/300 ] loss = 4.05927, acc = 0.76647
+loss = loss_layers + (10 * lamb) * loss_logits = 2.03653 + 2.36844 * 0.85404
+[ Valid | 146/300 ] loss = 4.03061, acc = 0.75306
+loss = loss_layers + (10 * lamb) * loss_logits = 1.88133 + 2.36844 * 0.90746
+[ Train | 147/300 ] loss = 4.09385, acc = 0.76465
+loss = loss_layers + (10 * lamb) * loss_logits = 2.04275 + 2.40100 * 0.85427
+[ Valid | 147/300 ] loss = 4.19335, acc = 0.73615
+loss = loss_layers + (10 * lamb) * loss_logits = 1.88004 + 2.40100 * 0.96348
+[ Train | 148/300 ] loss = 4.12793, acc = 0.76708
+loss = loss_layers + (10 * lamb) * loss_logits = 2.03930 + 2.43378 * 0.85819
+[ Valid | 148/300 ] loss = 4.15035, acc = 0.73965
+loss = loss_layers + (10 * lamb) * loss_logits = 1.88032 + 2.43378 * 0.93272
+[ Train | 149/300 ] loss = 4.12752, acc = 0.77042
+loss = loss_layers + (10 * lamb) * loss_logits = 2.04081 + 2.46678 * 0.84593
+[ Valid | 149/300 ] loss = 4.07710, acc = 0.75539
+loss = loss_layers + (10 * lamb) * loss_logits = 1.88421 + 2.46678 * 0.88897
+[ Train | 150/300 ] loss = 4.16155, acc = 0.76860
+loss = loss_layers + (10 * lamb) * loss_logits = 2.04373 + 2.50000 * 0.84713
+[ Valid | 150/300 ] loss = 4.11099, acc = 0.75364
+loss = loss_layers + (10 * lamb) * loss_logits = 1.88377 + 2.50000 * 0.89088
+[ Train | 151/300 ] loss = 4.18314, acc = 0.76870
+loss = loss_layers + (10 * lamb) * loss_logits = 2.04214 + 2.53344 * 0.84510
+[ Valid | 151/300 ] loss = 4.25189, acc = 0.73557
+loss = loss_layers + (10 * lamb) * loss_logits = 1.88670 + 2.53344 * 0.93359
+[ Train | 152/300 ] loss = 4.20449, acc = 0.77600
+loss = loss_layers + (10 * lamb) * loss_logits = 2.04556 + 2.56711 * 0.84100
+[ Valid | 152/300 ] loss = 4.16940, acc = 0.76239 -> best
+loss = loss_layers + (10 * lamb) * loss_logits = 1.88667 + 2.56711 * 0.88922
+Best model found at epoch 152, saving model
+[ Train | 153/300 ] loss = 4.23587, acc = 0.77063
+loss = loss_layers + (10 * lamb) * loss_logits = 2.04409 + 2.60100 * 0.84267
+[ Valid | 153/300 ] loss = 4.31017, acc = 0.74840
+loss = loss_layers + (10 * lamb) * loss_logits = 1.88543 + 2.60100 * 0.93223
+[ Train | 154/300 ] loss = 4.26787, acc = 0.77144
+loss = loss_layers + (10 * lamb) * loss_logits = 2.05114 + 2.63511 * 0.84123
+[ Valid | 154/300 ] loss = 4.40136, acc = 0.74257
+loss = loss_layers + (10 * lamb) * loss_logits = 1.89140 + 2.63511 * 0.95251
+[ Train | 155/300 ] loss = 4.30340, acc = 0.77407
+loss = loss_layers + (10 * lamb) * loss_logits = 2.05111 + 2.66944 * 0.84373
+[ Valid | 155/300 ] loss = 4.40417, acc = 0.74286
+loss = loss_layers + (10 * lamb) * loss_logits = 1.88968 + 2.66944 * 0.94195
+[ Train | 156/300 ] loss = 4.31082, acc = 0.77762
+loss = loss_layers + (10 * lamb) * loss_logits = 2.05299 + 2.70400 * 0.83499
+[ Valid | 156/300 ] loss = 4.31813, acc = 0.76589 -> best
+loss = loss_layers + (10 * lamb) * loss_logits = 1.89046 + 2.70400 * 0.89781
+Best model found at epoch 156, saving model
+[ Train | 157/300 ] loss = 4.35990, acc = 0.76961
+loss = loss_layers + (10 * lamb) * loss_logits = 2.05775 + 2.73878 * 0.84058
+[ Valid | 157/300 ] loss = 4.36142, acc = 0.76297
+loss = loss_layers + (10 * lamb) * loss_logits = 1.89224 + 2.73878 * 0.90156
+[ Train | 158/300 ] loss = 4.33804, acc = 0.77975
+loss = loss_layers + (10 * lamb) * loss_logits = 2.05671 + 2.77378 * 0.82246
+[ Valid | 158/300 ] loss = 4.44170, acc = 0.75160
+loss = loss_layers + (10 * lamb) * loss_logits = 1.89629 + 2.77378 * 0.91767
+[ Train | 159/300 ] loss = 4.35782, acc = 0.78208
+loss = loss_layers + (10 * lamb) * loss_logits = 2.05491 + 2.80900 * 0.81983
+[ Valid | 159/300 ] loss = 4.53593, acc = 0.73878
+loss = loss_layers + (10 * lamb) * loss_logits = 1.89907 + 2.80900 * 0.93872
+[ Train | 160/300 ] loss = 4.44213, acc = 0.77275
+loss = loss_layers + (10 * lamb) * loss_logits = 2.05677 + 2.84444 * 0.83860
+[ Valid | 160/300 ] loss = 4.62229, acc = 0.74227
+loss = loss_layers + (10 * lamb) * loss_logits = 1.89697 + 2.84444 * 0.95812
+[ Train | 161/300 ] loss = 4.44081, acc = 0.77711
+loss = loss_layers + (10 * lamb) * loss_logits = 2.06338 + 2.88011 * 0.82546
+[ Valid | 161/300 ] loss = 4.56705, acc = 0.76210
+loss = loss_layers + (10 * lamb) * loss_logits = 1.89976 + 2.88011 * 0.92610
+[ Train | 162/300 ] loss = 4.47921, acc = 0.77995
+loss = loss_layers + (10 * lamb) * loss_logits = 2.06505 + 2.91600 * 0.82790
+[ Valid | 162/300 ] loss = 4.66260, acc = 0.75248
+loss = loss_layers + (10 * lamb) * loss_logits = 1.90156 + 2.91600 * 0.94686
+[ Train | 163/300 ] loss = 4.51532, acc = 0.77924
+loss = loss_layers + (10 * lamb) * loss_logits = 2.06259 + 2.95211 * 0.83084
+[ Valid | 163/300 ] loss = 4.54057, acc = 0.75569
+loss = loss_layers + (10 * lamb) * loss_logits = 1.89915 + 2.95211 * 0.89475
+[ Train | 164/300 ] loss = 4.47967, acc = 0.78249
+loss = loss_layers + (10 * lamb) * loss_logits = 2.06269 + 2.98844 * 0.80878
+[ Valid | 164/300 ] loss = 4.56223, acc = 0.75948
+loss = loss_layers + (10 * lamb) * loss_logits = 1.90165 + 2.98844 * 0.89029
+[ Train | 165/300 ] loss = 4.54237, acc = 0.78056
+loss = loss_layers + (10 * lamb) * loss_logits = 2.06672 + 3.02500 * 0.81840
+[ Valid | 165/300 ] loss = 4.68509, acc = 0.75306
+loss = loss_layers + (10 * lamb) * loss_logits = 1.90248 + 3.02500 * 0.91987
+[ Train | 166/300 ] loss = 4.59427, acc = 0.78117
+loss = loss_layers + (10 * lamb) * loss_logits = 2.06707 + 3.06178 * 0.82540
+[ Valid | 166/300 ] loss = 4.88393, acc = 0.75452
+loss = loss_layers + (10 * lamb) * loss_logits = 1.90613 + 3.06178 * 0.97257
+[ Train | 167/300 ] loss = 4.57659, acc = 0.78583
+loss = loss_layers + (10 * lamb) * loss_logits = 2.06808 + 3.09878 * 0.80952
+[ Valid | 167/300 ] loss = 4.75296, acc = 0.75335
+loss = loss_layers + (10 * lamb) * loss_logits = 1.90559 + 3.09878 * 0.91887
+[ Train | 168/300 ] loss = 4.63211, acc = 0.78218
+loss = loss_layers + (10 * lamb) * loss_logits = 2.06813 + 3.13600 * 0.81760
+[ Valid | 168/300 ] loss = 4.76919, acc = 0.74694
+loss = loss_layers + (10 * lamb) * loss_logits = 1.90609 + 3.13600 * 0.91298
+[ Train | 169/300 ] loss = 4.62408, acc = 0.78238
+loss = loss_layers + (10 * lamb) * loss_logits = 2.06978 + 3.17344 * 0.80490
+[ Valid | 169/300 ] loss = 4.90279, acc = 0.74840
+loss = loss_layers + (10 * lamb) * loss_logits = 1.90934 + 3.17344 * 0.94328
+[ Train | 170/300 ] loss = 4.65684, acc = 0.78218
+loss = loss_layers + (10 * lamb) * loss_logits = 2.06968 + 3.21111 * 0.80569
+[ Valid | 170/300 ] loss = 4.94841, acc = 0.75131
+loss = loss_layers + (10 * lamb) * loss_logits = 1.90855 + 3.21111 * 0.94667
+[ Train | 171/300 ] loss = 4.69843, acc = 0.78826
+loss = loss_layers + (10 * lamb) * loss_logits = 2.06840 + 3.24900 * 0.80949
+[ Valid | 171/300 ] loss = 5.04628, acc = 0.73149
+loss = loss_layers + (10 * lamb) * loss_logits = 1.91203 + 3.24900 * 0.96468
+[ Train | 172/300 ] loss = 4.72519, acc = 0.78816
+loss = loss_layers + (10 * lamb) * loss_logits = 2.07806 + 3.28711 * 0.80531
+[ Valid | 172/300 ] loss = 5.02722, acc = 0.74781
+loss = loss_layers + (10 * lamb) * loss_logits = 1.91346 + 3.28711 * 0.94726
+[ Train | 173/300 ] loss = 4.73380, acc = 0.79070
+loss = loss_layers + (10 * lamb) * loss_logits = 2.07763 + 3.32544 * 0.79874
+[ Valid | 173/300 ] loss = 4.94650, acc = 0.76093
+loss = loss_layers + (10 * lamb) * loss_logits = 1.91437 + 3.32544 * 0.91180
+[ Train | 174/300 ] loss = 4.75143, acc = 0.79455
+loss = loss_layers + (10 * lamb) * loss_logits = 2.07401 + 3.36400 * 0.79590
+[ Valid | 174/300 ] loss = 4.95266, acc = 0.76385
+loss = loss_layers + (10 * lamb) * loss_logits = 1.91343 + 3.36400 * 0.90346
+[ Train | 175/300 ] loss = 4.78197, acc = 0.79070
+loss = loss_layers + (10 * lamb) * loss_logits = 2.07629 + 3.40278 * 0.79514
+[ Valid | 175/300 ] loss = 5.02753, acc = 0.74752
+loss = loss_layers + (10 * lamb) * loss_logits = 1.91720 + 3.40278 * 0.91406
+[ Train | 176/300 ] loss = 4.82498, acc = 0.78867
+loss = loss_layers + (10 * lamb) * loss_logits = 2.07710 + 3.44178 * 0.79839
+[ Valid | 176/300 ] loss = 5.18243, acc = 0.75073
+loss = loss_layers + (10 * lamb) * loss_logits = 1.91577 + 3.44178 * 0.94912
+[ Train | 177/300 ] loss = 4.84907, acc = 0.79120
+loss = loss_layers + (10 * lamb) * loss_logits = 2.08476 + 3.48100 * 0.79412
+[ Valid | 177/300 ] loss = 5.18868, acc = 0.74810
+loss = loss_layers + (10 * lamb) * loss_logits = 1.91830 + 3.48100 * 0.93949
+[ Train | 178/300 ] loss = 4.85272, acc = 0.79404
+loss = loss_layers + (10 * lamb) * loss_logits = 2.07978 + 3.52044 * 0.78767
+[ Valid | 178/300 ] loss = 5.06177, acc = 0.76297
+loss = loss_layers + (10 * lamb) * loss_logits = 1.92079 + 3.52044 * 0.89221
+[ Train | 179/300 ] loss = 4.86337, acc = 0.79576
+loss = loss_layers + (10 * lamb) * loss_logits = 2.08569 + 3.56011 * 0.78022
+[ Valid | 179/300 ] loss = 5.13665, acc = 0.75802
+loss = loss_layers + (10 * lamb) * loss_logits = 1.92147 + 3.56011 * 0.90311
+[ Train | 180/300 ] loss = 4.91456, acc = 0.79120
+loss = loss_layers + (10 * lamb) * loss_logits = 2.08188 + 3.60000 * 0.78686
+[ Valid | 180/300 ] loss = 5.39795, acc = 0.73586
+loss = loss_layers + (10 * lamb) * loss_logits = 1.92258 + 3.60000 * 0.96538
+[ Train | 181/300 ] loss = 4.93198, acc = 0.79738
+loss = loss_layers + (10 * lamb) * loss_logits = 2.08697 + 3.64011 * 0.78157
+[ Valid | 181/300 ] loss = 5.31222, acc = 0.73790
+loss = loss_layers + (10 * lamb) * loss_logits = 1.92316 + 3.64011 * 0.93103
+[ Train | 182/300 ] loss = 4.99671, acc = 0.79130
+loss = loss_layers + (10 * lamb) * loss_logits = 2.09412 + 3.68044 * 0.78865
+[ Valid | 182/300 ] loss = 5.31679, acc = 0.76327
+loss = loss_layers + (10 * lamb) * loss_logits = 1.92369 + 3.68044 * 0.92193
+[ Train | 183/300 ] loss = 4.98364, acc = 0.79445
+loss = loss_layers + (10 * lamb) * loss_logits = 2.08898 + 3.72100 * 0.77792
+[ Valid | 183/300 ] loss = 5.35207, acc = 0.76531
+loss = loss_layers + (10 * lamb) * loss_logits = 1.92356 + 3.72100 * 0.92139
+[ Train | 184/300 ] loss = 5.02386, acc = 0.79597
+loss = loss_layers + (10 * lamb) * loss_logits = 2.09385 + 3.76178 * 0.77889
+[ Valid | 184/300 ] loss = 5.40058, acc = 0.75131
+loss = loss_layers + (10 * lamb) * loss_logits = 1.93115 + 3.76178 * 0.92228
+[ Train | 185/300 ] loss = 5.05961, acc = 0.79445
+loss = loss_layers + (10 * lamb) * loss_logits = 2.09587 + 3.80278 * 0.77936
+[ Valid | 185/300 ] loss = 5.72864, acc = 0.75248
+loss = loss_layers + (10 * lamb) * loss_logits = 1.92814 + 3.80278 * 0.99940
+[ Train | 186/300 ] loss = 5.08238, acc = 0.79921
+loss = loss_layers + (10 * lamb) * loss_logits = 2.08911 + 3.84400 * 0.77869
+[ Valid | 186/300 ] loss = 5.41814, acc = 0.75860
+loss = loss_layers + (10 * lamb) * loss_logits = 1.92998 + 3.84400 * 0.90743
+[ Train | 187/300 ] loss = 5.09470, acc = 0.79901
+loss = loss_layers + (10 * lamb) * loss_logits = 2.09708 + 3.88544 * 0.77150
+[ Valid | 187/300 ] loss = 5.53123, acc = 0.75481
+loss = loss_layers + (10 * lamb) * loss_logits = 1.93114 + 3.88544 * 0.92656
+[ Train | 188/300 ] loss = 5.14701, acc = 0.79708
+loss = loss_layers + (10 * lamb) * loss_logits = 2.09325 + 3.92711 * 0.77761
+[ Valid | 188/300 ] loss = 5.62317, acc = 0.75073
+loss = loss_layers + (10 * lamb) * loss_logits = 1.93353 + 3.92711 * 0.93953
+[ Train | 189/300 ] loss = 5.17253, acc = 0.79556
+loss = loss_layers + (10 * lamb) * loss_logits = 2.10164 + 3.96900 * 0.77372
+[ Valid | 189/300 ] loss = 5.62794, acc = 0.76297
+loss = loss_layers + (10 * lamb) * loss_logits = 1.93227 + 3.96900 * 0.93113
+[ Train | 190/300 ] loss = 5.16484, acc = 0.80083
+loss = loss_layers + (10 * lamb) * loss_logits = 2.10088 + 4.01111 * 0.76387
+[ Valid | 190/300 ] loss = 5.82010, acc = 0.74956
+loss = loss_layers + (10 * lamb) * loss_logits = 1.93216 + 4.01111 * 0.96929
+[ Train | 191/300 ] loss = 5.21645, acc = 0.80154
+loss = loss_layers + (10 * lamb) * loss_logits = 2.09796 + 4.05344 * 0.76935
+[ Valid | 191/300 ] loss = 5.64910, acc = 0.76327
+loss = loss_layers + (10 * lamb) * loss_logits = 1.93909 + 4.05344 * 0.91527
+[ Train | 192/300 ] loss = 5.25607, acc = 0.79769
+loss = loss_layers + (10 * lamb) * loss_logits = 2.10204 + 4.09600 * 0.77003
+[ Valid | 192/300 ] loss = 5.59073, acc = 0.76210
+loss = loss_layers + (10 * lamb) * loss_logits = 1.93680 + 4.09600 * 0.89207
+[ Train | 193/300 ] loss = 5.23590, acc = 0.80326
+loss = loss_layers + (10 * lamb) * loss_logits = 2.10446 + 4.13878 * 0.75661
+[ Valid | 193/300 ] loss = 5.84065, acc = 0.76531
+loss = loss_layers + (10 * lamb) * loss_logits = 1.93760 + 4.13878 * 0.94304
+[ Train | 194/300 ] loss = 5.31049, acc = 0.80063
+loss = loss_layers + (10 * lamb) * loss_logits = 2.10262 + 4.18178 * 0.76711
+[ Valid | 194/300 ] loss = 5.75008, acc = 0.75364
+loss = loss_layers + (10 * lamb) * loss_logits = 1.93946 + 4.18178 * 0.91124
+[ Train | 195/300 ] loss = 5.25209, acc = 0.80995
+loss = loss_layers + (10 * lamb) * loss_logits = 2.10587 + 4.22500 * 0.74467
+[ Valid | 195/300 ] loss = 5.85507, acc = 0.75277
+loss = loss_layers + (10 * lamb) * loss_logits = 1.94130 + 4.22500 * 0.92634
+[ Train | 196/300 ] loss = 5.31895, acc = 0.80559
+loss = loss_layers + (10 * lamb) * loss_logits = 2.10754 + 4.26844 * 0.75236
+[ Valid | 196/300 ] loss = 6.17005, acc = 0.74344
+loss = loss_layers + (10 * lamb) * loss_logits = 1.93931 + 4.26844 * 0.99117
+[ Train | 197/300 ] loss = 5.33473, acc = 0.80610
+loss = loss_layers + (10 * lamb) * loss_logits = 2.10787 + 4.31211 * 0.74833
+[ Valid | 197/300 ] loss = 5.98167, acc = 0.74694
+loss = loss_layers + (10 * lamb) * loss_logits = 1.94495 + 4.31211 * 0.93614
+[ Train | 198/300 ] loss = 5.42542, acc = 0.80195
+loss = loss_layers + (10 * lamb) * loss_logits = 2.10939 + 4.35600 * 0.76126
+[ Valid | 198/300 ] loss = 5.85232, acc = 0.76414
+loss = loss_layers + (10 * lamb) * loss_logits = 1.94305 + 4.35600 * 0.89745
+[ Train | 199/300 ] loss = 5.40911, acc = 0.80438
+loss = loss_layers + (10 * lamb) * loss_logits = 2.11111 + 4.40011 * 0.74953
+[ Valid | 199/300 ] loss = 6.05383, acc = 0.74927
+loss = loss_layers + (10 * lamb) * loss_logits = 1.94189 + 4.40011 * 0.93451
+[ Train | 200/300 ] loss = 5.43798, acc = 0.80681
+loss = loss_layers + (10 * lamb) * loss_logits = 2.11281 + 4.44444 * 0.74816
+[ Valid | 200/300 ] loss = 6.12375, acc = 0.76093
+loss = loss_layers + (10 * lamb) * loss_logits = 1.94644 + 4.44444 * 0.93989
+[ Train | 201/300 ] loss = 5.47233, acc = 0.80884
+loss = loss_layers + (10 * lamb) * loss_logits = 2.11464 + 4.48900 * 0.74798
+[ Valid | 201/300 ] loss = 6.34123, acc = 0.74169
+loss = loss_layers + (10 * lamb) * loss_logits = 1.94738 + 4.48900 * 0.97880
+[ Train | 202/300 ] loss = 5.51326, acc = 0.81097
+loss = loss_layers + (10 * lamb) * loss_logits = 2.11523 + 4.53378 * 0.74949
+[ Valid | 202/300 ] loss = 6.25659, acc = 0.75190
+loss = loss_layers + (10 * lamb) * loss_logits = 1.94623 + 4.53378 * 0.95072
+[ Train | 203/300 ] loss = 5.51444, acc = 0.81107
+loss = loss_layers + (10 * lamb) * loss_logits = 2.12074 + 4.57878 * 0.74118
+[ Valid | 203/300 ] loss = 6.65334, acc = 0.73907
+loss = loss_layers + (10 * lamb) * loss_logits = 1.95469 + 4.57878 * 1.02618
+[ Train | 204/300 ] loss = 5.54237, acc = 0.80843
+loss = loss_layers + (10 * lamb) * loss_logits = 2.12201 + 4.62400 * 0.73970
+[ Valid | 204/300 ] loss = 6.06203, acc = 0.76560
+loss = loss_layers + (10 * lamb) * loss_logits = 1.95058 + 4.62400 * 0.88915
+[ Train | 205/300 ] loss = 5.57553, acc = 0.80661
+loss = loss_layers + (10 * lamb) * loss_logits = 2.11929 + 4.66944 * 0.74018
+[ Valid | 205/300 ] loss = 6.49370, acc = 0.73499
+loss = loss_layers + (10 * lamb) * loss_logits = 1.94958 + 4.66944 * 0.97316
+[ Train | 206/300 ] loss = 5.63362, acc = 0.80529
+loss = loss_layers + (10 * lamb) * loss_logits = 2.11790 + 4.71511 * 0.74563
+[ Valid | 206/300 ] loss = 6.37388, acc = 0.76152
+loss = loss_layers + (10 * lamb) * loss_logits = 1.95227 + 4.71511 * 0.93775
+[ Train | 207/300 ] loss = 5.60399, acc = 0.81097
+loss = loss_layers + (10 * lamb) * loss_logits = 2.12169 + 4.76100 * 0.73142
+[ Valid | 207/300 ] loss = 6.43220, acc = 0.75160
+loss = loss_layers + (10 * lamb) * loss_logits = 1.95405 + 4.76100 * 0.94059
+[ Train | 208/300 ] loss = 5.62113, acc = 0.81502
+loss = loss_layers + (10 * lamb) * loss_logits = 2.12489 + 4.80711 * 0.72731
+[ Valid | 208/300 ] loss = 6.44853, acc = 0.75569
+loss = loss_layers + (10 * lamb) * loss_logits = 1.95667 + 4.80711 * 0.93442
+[ Train | 209/300 ] loss = 5.68419, acc = 0.81127
+loss = loss_layers + (10 * lamb) * loss_logits = 2.11890 + 4.85344 * 0.73459
+[ Valid | 209/300 ] loss = 6.35877, acc = 0.76822 -> best
+loss = loss_layers + (10 * lamb) * loss_logits = 1.95620 + 4.85344 * 0.90710
+Best model found at epoch 209, saving model
+[ Train | 210/300 ] loss = 5.69258, acc = 0.81340
+loss = loss_layers + (10 * lamb) * loss_logits = 2.13003 + 4.90000 * 0.72705
+[ Valid | 210/300 ] loss = 6.55225, acc = 0.75452
+loss = loss_layers + (10 * lamb) * loss_logits = 1.96100 + 4.90000 * 0.93699
+[ Train | 211/300 ] loss = 5.63783, acc = 0.81543
+loss = loss_layers + (10 * lamb) * loss_logits = 2.12443 + 4.94678 * 0.71024
+[ Valid | 211/300 ] loss = 6.55193, acc = 0.75627
+loss = loss_layers + (10 * lamb) * loss_logits = 1.96047 + 4.94678 * 0.92817
+[ Train | 212/300 ] loss = 5.73191, acc = 0.81441
+loss = loss_layers + (10 * lamb) * loss_logits = 2.12989 + 4.99378 * 0.72130
+[ Valid | 212/300 ] loss = 6.97079, acc = 0.74315
+loss = loss_layers + (10 * lamb) * loss_logits = 1.96218 + 4.99378 * 1.00297
+[ Train | 213/300 ] loss = 5.79730, acc = 0.81218
+loss = loss_layers + (10 * lamb) * loss_logits = 2.12611 + 5.04100 * 0.72827
+[ Valid | 213/300 ] loss = 6.74564, acc = 0.76706
+loss = loss_layers + (10 * lamb) * loss_logits = 1.96217 + 5.04100 * 0.94891
+[ Train | 214/300 ] loss = 5.77248, acc = 0.81806
+loss = loss_layers + (10 * lamb) * loss_logits = 2.13104 + 5.08844 * 0.71563
+[ Valid | 214/300 ] loss = 6.65563, acc = 0.76735
+loss = loss_layers + (10 * lamb) * loss_logits = 1.96217 + 5.08844 * 0.92238
+[ Train | 215/300 ] loss = 5.75604, acc = 0.82201
+loss = loss_layers + (10 * lamb) * loss_logits = 2.13533 + 5.13611 * 0.70495
+[ Valid | 215/300 ] loss = 6.67750, acc = 0.76297
+loss = loss_layers + (10 * lamb) * loss_logits = 1.96446 + 5.13611 * 0.91763
+[ Train | 216/300 ] loss = 5.80772, acc = 0.81492
+loss = loss_layers + (10 * lamb) * loss_logits = 2.12830 + 5.18400 * 0.70977
+[ Valid | 216/300 ] loss = 6.92873, acc = 0.75656
+loss = loss_layers + (10 * lamb) * loss_logits = 1.96593 + 5.18400 * 0.95733
+[ Train | 217/300 ] loss = 5.86161, acc = 0.81451
+loss = loss_layers + (10 * lamb) * loss_logits = 2.13377 + 5.23211 * 0.71249
+[ Valid | 217/300 ] loss = 7.06180, acc = 0.75977
+loss = loss_layers + (10 * lamb) * loss_logits = 1.97113 + 5.23211 * 0.97297
+[ Train | 218/300 ] loss = 5.81491, acc = 0.82151
+loss = loss_layers + (10 * lamb) * loss_logits = 2.13540 + 5.28044 * 0.69682
+[ Valid | 218/300 ] loss = 6.97694, acc = 0.75131
+loss = loss_layers + (10 * lamb) * loss_logits = 1.96919 + 5.28044 * 0.94836
+[ Train | 219/300 ] loss = 5.89966, acc = 0.81715
+loss = loss_layers + (10 * lamb) * loss_logits = 2.13791 + 5.32900 * 0.70590
+[ Valid | 219/300 ] loss = 6.78702, acc = 0.76531
+loss = loss_layers + (10 * lamb) * loss_logits = 1.97324 + 5.32900 * 0.90332
+[ Train | 220/300 ] loss = 5.96198, acc = 0.82060
+loss = loss_layers + (10 * lamb) * loss_logits = 2.14329 + 5.37778 * 0.71009
+[ Valid | 220/300 ] loss = 7.02005, acc = 0.75452
+loss = loss_layers + (10 * lamb) * loss_logits = 1.97366 + 5.37778 * 0.93838
+[ Train | 221/300 ] loss = 5.92137, acc = 0.82262
+loss = loss_layers + (10 * lamb) * loss_logits = 2.14108 + 5.42678 * 0.69660
+[ Valid | 221/300 ] loss = 7.02858, acc = 0.76910 -> best
+loss = loss_layers + (10 * lamb) * loss_logits = 1.97545 + 5.42678 * 0.93115
+Best model found at epoch 221, saving model
+[ Train | 222/300 ] loss = 6.01207, acc = 0.81857
+loss = loss_layers + (10 * lamb) * loss_logits = 2.14466 + 5.47600 * 0.70625
+[ Valid | 222/300 ] loss = 7.11333, acc = 0.76443
+loss = loss_layers + (10 * lamb) * loss_logits = 1.97322 + 5.47600 * 0.93866
+[ Train | 223/300 ] loss = 5.93831, acc = 0.82424
+loss = loss_layers + (10 * lamb) * loss_logits = 2.14295 + 5.52544 * 0.68689
+[ Valid | 223/300 ] loss = 6.94758, acc = 0.77988 -> best
+loss = loss_layers + (10 * lamb) * loss_logits = 1.97286 + 5.52544 * 0.90033
+Best model found at epoch 223, saving model
+[ Train | 224/300 ] loss = 6.05368, acc = 0.82222
+loss = loss_layers + (10 * lamb) * loss_logits = 2.14696 + 5.57511 * 0.70074
+[ Valid | 224/300 ] loss = 7.03335, acc = 0.75773
+loss = loss_layers + (10 * lamb) * loss_logits = 1.97576 + 5.57511 * 0.90717
+[ Train | 225/300 ] loss = 6.02901, acc = 0.82151
+loss = loss_layers + (10 * lamb) * loss_logits = 2.14899 + 5.62500 * 0.68978
+[ Valid | 225/300 ] loss = 6.98086, acc = 0.78251 -> best
+loss = loss_layers + (10 * lamb) * loss_logits = 1.97393 + 5.62500 * 0.89012
+Best model found at epoch 225, saving model
+[ Train | 226/300 ] loss = 6.07420, acc = 0.82374
+loss = loss_layers + (10 * lamb) * loss_logits = 2.14841 + 5.67511 * 0.69175
+[ Valid | 226/300 ] loss = 7.31959, acc = 0.77172
+loss = loss_layers + (10 * lamb) * loss_logits = 1.97794 + 5.67511 * 0.94124
+[ Train | 227/300 ] loss = 6.02852, acc = 0.82475
+loss = loss_layers + (10 * lamb) * loss_logits = 2.14950 + 5.72544 * 0.67751
+[ Valid | 227/300 ] loss = 7.15511, acc = 0.77493
+loss = loss_layers + (10 * lamb) * loss_logits = 1.97833 + 5.72544 * 0.90417
+[ Train | 228/300 ] loss = 6.11141, acc = 0.82212
+loss = loss_layers + (10 * lamb) * loss_logits = 2.15210 + 5.77600 * 0.68548
+[ Valid | 228/300 ] loss = 7.25932, acc = 0.77085
+loss = loss_layers + (10 * lamb) * loss_logits = 1.98284 + 5.77600 * 0.91352
+[ Train | 229/300 ] loss = 6.09878, acc = 0.82262
+loss = loss_layers + (10 * lamb) * loss_logits = 2.14974 + 5.82678 * 0.67774
+[ Valid | 229/300 ] loss = 7.41853, acc = 0.76297
+loss = loss_layers + (10 * lamb) * loss_logits = 1.98382 + 5.82678 * 0.93271
+[ Train | 230/300 ] loss = 6.10622, acc = 0.82860
+loss = loss_layers + (10 * lamb) * loss_logits = 2.15068 + 5.87778 * 0.67297
+[ Valid | 230/300 ] loss = 7.44999, acc = 0.76239
+loss = loss_layers + (10 * lamb) * loss_logits = 1.98282 + 5.87778 * 0.93014
+[ Train | 231/300 ] loss = 6.18344, acc = 0.82637
+loss = loss_layers + (10 * lamb) * loss_logits = 2.15611 + 5.92900 * 0.67926
+[ Valid | 231/300 ] loss = 7.26521, acc = 0.76793
+loss = loss_layers + (10 * lamb) * loss_logits = 1.98401 + 5.92900 * 0.89074
+[ Train | 232/300 ] loss = 6.16572, acc = 0.82343
+loss = loss_layers + (10 * lamb) * loss_logits = 2.15508 + 5.98044 * 0.67063
+[ Valid | 232/300 ] loss = 7.63382, acc = 0.75452
+loss = loss_layers + (10 * lamb) * loss_logits = 1.98699 + 5.98044 * 0.94422
+[ Train | 233/300 ] loss = 6.18863, acc = 0.82668
+loss = loss_layers + (10 * lamb) * loss_logits = 2.15557 + 6.03211 * 0.66860
+[ Valid | 233/300 ] loss = 7.39491, acc = 0.76939
+loss = loss_layers + (10 * lamb) * loss_logits = 1.98635 + 6.03211 * 0.89663
+[ Train | 234/300 ] loss = 6.19202, acc = 0.83296
+loss = loss_layers + (10 * lamb) * loss_logits = 2.15711 + 6.08400 * 0.66320
+[ Valid | 234/300 ] loss = 7.36301, acc = 0.77580
+loss = loss_layers + (10 * lamb) * loss_logits = 1.98879 + 6.08400 * 0.88334
+[ Train | 235/300 ] loss = 6.19855, acc = 0.82800
+loss = loss_layers + (10 * lamb) * loss_logits = 2.15766 + 6.13611 * 0.65854
+[ Valid | 235/300 ] loss = 7.86388, acc = 0.75423
+loss = loss_layers + (10 * lamb) * loss_logits = 1.98515 + 6.13611 * 0.95805
+[ Train | 236/300 ] loss = 6.30367, acc = 0.82242
+loss = loss_layers + (10 * lamb) * loss_logits = 2.15977 + 6.18844 * 0.66962
+[ Valid | 236/300 ] loss = 8.15436, acc = 0.73673
+loss = loss_layers + (10 * lamb) * loss_logits = 1.99044 + 6.18844 * 0.99604
+[ Train | 237/300 ] loss = 6.32460, acc = 0.82739
+loss = loss_layers + (10 * lamb) * loss_logits = 2.16325 + 6.24100 * 0.66678
+[ Valid | 237/300 ] loss = 7.82359, acc = 0.76939
+loss = loss_layers + (10 * lamb) * loss_logits = 1.99372 + 6.24100 * 0.93412
+[ Train | 238/300 ] loss = 6.27758, acc = 0.83144
+loss = loss_layers + (10 * lamb) * loss_logits = 2.16337 + 6.29378 * 0.65370
+[ Valid | 238/300 ] loss = 7.71120, acc = 0.76531
+loss = loss_layers + (10 * lamb) * loss_logits = 1.99150 + 6.29378 * 0.90879
+[ Train | 239/300 ] loss = 6.30774, acc = 0.83134
+loss = loss_layers + (10 * lamb) * loss_logits = 2.16349 + 6.34678 * 0.65297
+[ Valid | 239/300 ] loss = 8.27010, acc = 0.75190
+loss = loss_layers + (10 * lamb) * loss_logits = 1.99161 + 6.34678 * 0.98924
+[ Train | 240/300 ] loss = 6.33634, acc = 0.82718
+loss = loss_layers + (10 * lamb) * loss_logits = 2.15978 + 6.40000 * 0.65259
+[ Valid | 240/300 ] loss = 7.83292, acc = 0.76822
+loss = loss_layers + (10 * lamb) * loss_logits = 1.99462 + 6.40000 * 0.91224
+[ Train | 241/300 ] loss = 6.29965, acc = 0.83458
+loss = loss_layers + (10 * lamb) * loss_logits = 2.16785 + 6.45344 * 0.64025
+[ Valid | 241/300 ] loss = 7.86426, acc = 0.77580
+loss = loss_layers + (10 * lamb) * loss_logits = 1.99512 + 6.45344 * 0.90946
+[ Train | 242/300 ] loss = 6.33586, acc = 0.83398
+loss = loss_layers + (10 * lamb) * loss_logits = 2.16901 + 6.50711 * 0.64035
+[ Valid | 242/300 ] loss = 7.97496, acc = 0.76764
+loss = loss_layers + (10 * lamb) * loss_logits = 1.99862 + 6.50711 * 0.91843
+[ Train | 243/300 ] loss = 6.35713, acc = 0.83012
+loss = loss_layers + (10 * lamb) * loss_logits = 2.16908 + 6.56100 * 0.63833
+[ Valid | 243/300 ] loss = 8.15034, acc = 0.76414
+loss = loss_layers + (10 * lamb) * loss_logits = 1.99888 + 6.56100 * 0.93758
+[ Train | 244/300 ] loss = 6.43222, acc = 0.82678
+loss = loss_layers + (10 * lamb) * loss_logits = 2.17330 + 6.61511 * 0.64382
+[ Valid | 244/300 ] loss = 7.83752, acc = 0.77813
+loss = loss_layers + (10 * lamb) * loss_logits = 1.99955 + 6.61511 * 0.88252
+[ Train | 245/300 ] loss = 6.41606, acc = 0.82881
+loss = loss_layers + (10 * lamb) * loss_logits = 2.17115 + 6.66944 * 0.63647
+[ Valid | 245/300 ] loss = 8.33826, acc = 0.76356
+loss = loss_layers + (10 * lamb) * loss_logits = 2.00147 + 6.66944 * 0.95012
+[ Train | 246/300 ] loss = 6.37360, acc = 0.83377
+loss = loss_layers + (10 * lamb) * loss_logits = 2.17149 + 6.72400 * 0.62494
+[ Valid | 246/300 ] loss = 8.49571, acc = 0.75918
+loss = loss_layers + (10 * lamb) * loss_logits = 2.00289 + 6.72400 * 0.96562
+[ Train | 247/300 ] loss = 6.44776, acc = 0.83570
+loss = loss_layers + (10 * lamb) * loss_logits = 2.17432 + 6.77878 * 0.63042
+[ Valid | 247/300 ] loss = 8.02568, acc = 0.77114
+loss = loss_layers + (10 * lamb) * loss_logits = 1.99952 + 6.77878 * 0.88897
+[ Train | 248/300 ] loss = 6.52570, acc = 0.83306
+loss = loss_layers + (10 * lamb) * loss_logits = 2.17649 + 6.83378 * 0.63643
+[ Valid | 248/300 ] loss = 8.34092, acc = 0.76531
+loss = loss_layers + (10 * lamb) * loss_logits = 2.00172 + 6.83378 * 0.92763
+[ Train | 249/300 ] loss = 6.49460, acc = 0.83164
+loss = loss_layers + (10 * lamb) * loss_logits = 2.17818 + 6.88900 * 0.62657
+[ Valid | 249/300 ] loss = 8.66598, acc = 0.75510
+loss = loss_layers + (10 * lamb) * loss_logits = 2.00677 + 6.88900 * 0.96664
+[ Train | 250/300 ] loss = 6.44220, acc = 0.83732
+loss = loss_layers + (10 * lamb) * loss_logits = 2.18134 + 6.94444 * 0.61356
+[ Valid | 250/300 ] loss = 8.35614, acc = 0.76531
+loss = loss_layers + (10 * lamb) * loss_logits = 2.00460 + 6.94444 * 0.91462
+[ Train | 251/300 ] loss = 6.44060, acc = 0.83762
+loss = loss_layers + (10 * lamb) * loss_logits = 2.17849 + 7.00011 * 0.60886
+[ Valid | 251/300 ] loss = 8.94441, acc = 0.74665
+loss = loss_layers + (10 * lamb) * loss_logits = 2.00602 + 7.00011 * 0.99118
+[ Train | 252/300 ] loss = 6.49580, acc = 0.83621
+loss = loss_layers + (10 * lamb) * loss_logits = 2.18244 + 7.05600 * 0.61130
+[ Valid | 252/300 ] loss = 8.62622, acc = 0.76006
+loss = loss_layers + (10 * lamb) * loss_logits = 2.00873 + 7.05600 * 0.93785
+[ Train | 253/300 ] loss = 6.57368, acc = 0.83945
+loss = loss_layers + (10 * lamb) * loss_logits = 2.18124 + 7.11211 * 0.61760
+[ Valid | 253/300 ] loss = 8.14160, acc = 0.77784
+loss = loss_layers + (10 * lamb) * loss_logits = 2.01026 + 7.11211 * 0.86210
+[ Train | 254/300 ] loss = 6.56117, acc = 0.83904
+loss = loss_layers + (10 * lamb) * loss_logits = 2.18277 + 7.16844 * 0.61079
+[ Valid | 254/300 ] loss = 9.13656, acc = 0.74781
+loss = loss_layers + (10 * lamb) * loss_logits = 2.00981 + 7.16844 * 0.99418
+[ Train | 255/300 ] loss = 6.57404, acc = 0.83489
+loss = loss_layers + (10 * lamb) * loss_logits = 2.18425 + 7.22500 * 0.60758
+[ Valid | 255/300 ] loss = 8.78644, acc = 0.75860
+loss = loss_layers + (10 * lamb) * loss_logits = 2.01137 + 7.22500 * 0.93773
+[ Train | 256/300 ] loss = 6.54155, acc = 0.84340
+loss = loss_layers + (10 * lamb) * loss_logits = 2.18844 + 7.28178 * 0.59781
+[ Valid | 256/300 ] loss = 8.91491, acc = 0.76385
+loss = loss_layers + (10 * lamb) * loss_logits = 2.01181 + 7.28178 * 0.94800
+[ Train | 257/300 ] loss = 6.54598, acc = 0.84117
+loss = loss_layers + (10 * lamb) * loss_logits = 2.18884 + 7.33878 * 0.59372
+[ Valid | 257/300 ] loss = 9.29307, acc = 0.74373
+loss = loss_layers + (10 * lamb) * loss_logits = 2.01306 + 7.33878 * 0.99199
+[ Train | 258/300 ] loss = 6.62293, acc = 0.83631
+loss = loss_layers + (10 * lamb) * loss_logits = 2.18754 + 7.39600 * 0.59970
+[ Valid | 258/300 ] loss = 9.18945, acc = 0.75773
+loss = loss_layers + (10 * lamb) * loss_logits = 2.01522 + 7.39600 * 0.97002
+[ Train | 259/300 ] loss = 6.54556, acc = 0.84320
+loss = loss_layers + (10 * lamb) * loss_logits = 2.19285 + 7.45344 * 0.58399
+[ Valid | 259/300 ] loss = 9.03980, acc = 0.75802
+loss = loss_layers + (10 * lamb) * loss_logits = 2.02002 + 7.45344 * 0.94182
+[ Train | 260/300 ] loss = 6.55975, acc = 0.84208
+loss = loss_layers + (10 * lamb) * loss_logits = 2.19073 + 7.51111 * 0.58167
+[ Valid | 260/300 ] loss = 8.75779, acc = 0.76443
+loss = loss_layers + (10 * lamb) * loss_logits = 2.01862 + 7.51111 * 0.89723
+[ Train | 261/300 ] loss = 6.50865, acc = 0.84462
+loss = loss_layers + (10 * lamb) * loss_logits = 2.19030 + 7.56900 * 0.57053
+[ Valid | 261/300 ] loss = 9.90427, acc = 0.73848
+loss = loss_layers + (10 * lamb) * loss_logits = 2.02145 + 7.56900 * 1.04146
+[ Train | 262/300 ] loss = 6.58818, acc = 0.84472
+loss = loss_layers + (10 * lamb) * loss_logits = 2.19101 + 7.62711 * 0.57652
+[ Valid | 262/300 ] loss = 8.85814, acc = 0.76676
+loss = loss_layers + (10 * lamb) * loss_logits = 2.01905 + 7.62711 * 0.89668
+[ Train | 263/300 ] loss = 6.58237, acc = 0.84229
+loss = loss_layers + (10 * lamb) * loss_logits = 2.19475 + 7.68544 * 0.57090
+[ Valid | 263/300 ] loss = 9.30667, acc = 0.74606
+loss = loss_layers + (10 * lamb) * loss_logits = 2.01968 + 7.68544 * 0.94815
+[ Train | 264/300 ] loss = 6.63210, acc = 0.83904
+loss = loss_layers + (10 * lamb) * loss_logits = 2.19459 + 7.74400 * 0.57302
+[ Valid | 264/300 ] loss = 9.07430, acc = 0.76210
+loss = loss_layers + (10 * lamb) * loss_logits = 2.02167 + 7.74400 * 0.91072
+[ Train | 265/300 ] loss = 6.60991, acc = 0.84563
+loss = loss_layers + (10 * lamb) * loss_logits = 2.19658 + 7.80278 * 0.56561
+[ Valid | 265/300 ] loss = 9.29362, acc = 0.76122
+loss = loss_layers + (10 * lamb) * loss_logits = 2.02378 + 7.80278 * 0.93170
+[ Train | 266/300 ] loss = 6.67678, acc = 0.84097
+loss = loss_layers + (10 * lamb) * loss_logits = 2.20356 + 7.86178 * 0.56898
+[ Valid | 266/300 ] loss = 9.34222, acc = 0.75918
+loss = loss_layers + (10 * lamb) * loss_logits = 2.02778 + 7.86178 * 0.93038
+[ Train | 267/300 ] loss = 6.70015, acc = 0.83975
+loss = loss_layers + (10 * lamb) * loss_logits = 2.19966 + 7.92100 * 0.56817
+[ Valid | 267/300 ] loss = 9.00594, acc = 0.76997
+loss = loss_layers + (10 * lamb) * loss_logits = 2.02578 + 7.92100 * 0.88122
+[ Train | 268/300 ] loss = 6.78268, acc = 0.84421
+loss = loss_layers + (10 * lamb) * loss_logits = 2.20117 + 7.98044 * 0.57409
+[ Valid | 268/300 ] loss = 9.05039, acc = 0.77114
+loss = loss_layers + (10 * lamb) * loss_logits = 2.02460 + 7.98044 * 0.88038
+[ Train | 269/300 ] loss = 6.69212, acc = 0.84391
+loss = loss_layers + (10 * lamb) * loss_logits = 2.20248 + 8.04011 * 0.55840
+[ Valid | 269/300 ] loss = 9.34240, acc = 0.76880
+loss = loss_layers + (10 * lamb) * loss_logits = 2.02994 + 8.04011 * 0.90950
+[ Train | 270/300 ] loss = 6.64679, acc = 0.84543
+loss = loss_layers + (10 * lamb) * loss_logits = 2.20171 + 8.10000 * 0.54877
+[ Valid | 270/300 ] loss = 9.33001, acc = 0.76472
+loss = loss_layers + (10 * lamb) * loss_logits = 2.02819 + 8.10000 * 0.90146
+[ Train | 271/300 ] loss = 6.64541, acc = 0.84887
+loss = loss_layers + (10 * lamb) * loss_logits = 2.20716 + 8.16011 * 0.54390
+[ Valid | 271/300 ] loss = 9.73279, acc = 0.76006
+loss = loss_layers + (10 * lamb) * loss_logits = 2.03056 + 8.16011 * 0.94389
+[ Train | 272/300 ] loss = 6.61857, acc = 0.84979
+loss = loss_layers + (10 * lamb) * loss_logits = 2.20552 + 8.22044 * 0.53684
+[ Valid | 272/300 ] loss = 9.56995, acc = 0.76035
+loss = loss_layers + (10 * lamb) * loss_logits = 2.03259 + 8.22044 * 0.91690
+[ Train | 273/300 ] loss = 6.63199, acc = 0.84857
+loss = loss_layers + (10 * lamb) * loss_logits = 2.20857 + 8.28100 * 0.53417
+[ Valid | 273/300 ] loss = 9.55453, acc = 0.76414
+loss = loss_layers + (10 * lamb) * loss_logits = 2.03274 + 8.28100 * 0.90832
+[ Train | 274/300 ] loss = 6.65189, acc = 0.85202
+loss = loss_layers + (10 * lamb) * loss_logits = 2.21090 + 8.34178 * 0.53238
+[ Valid | 274/300 ] loss = 9.77087, acc = 0.76297
+loss = loss_layers + (10 * lamb) * loss_logits = 2.03194 + 8.34178 * 0.92773
+[ Train | 275/300 ] loss = 6.73952, acc = 0.84320
+loss = loss_layers + (10 * lamb) * loss_logits = 2.21102 + 8.40278 * 0.53893
+[ Valid | 275/300 ] loss = 9.49060, acc = 0.77347
+loss = loss_layers + (10 * lamb) * loss_logits = 2.03316 + 8.40278 * 0.88750
+[ Train | 276/300 ] loss = 6.73645, acc = 0.84644
+loss = loss_layers + (10 * lamb) * loss_logits = 2.20812 + 8.46400 * 0.53501
+[ Valid | 276/300 ] loss = 9.66186, acc = 0.76006
+loss = loss_layers + (10 * lamb) * loss_logits = 2.03632 + 8.46400 * 0.90094
+[ Train | 277/300 ] loss = 6.68306, acc = 0.84786
+loss = loss_layers + (10 * lamb) * loss_logits = 2.21270 + 8.52544 * 0.52436
+[ Valid | 277/300 ] loss = 9.84642, acc = 0.76793
+loss = loss_layers + (10 * lamb) * loss_logits = 2.03743 + 8.52544 * 0.91596
+[ Train | 278/300 ] loss = 6.68960, acc = 0.84776
+loss = loss_layers + (10 * lamb) * loss_logits = 2.20953 + 8.58711 * 0.52172
+[ Valid | 278/300 ] loss = 9.62920, acc = 0.77026
+loss = loss_layers + (10 * lamb) * loss_logits = 2.03687 + 8.58711 * 0.88416
+[ Train | 279/300 ] loss = 6.67263, acc = 0.85455
+loss = loss_layers + (10 * lamb) * loss_logits = 2.21559 + 8.64900 * 0.51532
+[ Valid | 279/300 ] loss = 9.59754, acc = 0.76531
+loss = loss_layers + (10 * lamb) * loss_logits = 2.03924 + 8.64900 * 0.87389
+[ Train | 280/300 ] loss = 6.64970, acc = 0.84948
+loss = loss_layers + (10 * lamb) * loss_logits = 2.21593 + 8.71111 * 0.50898
+[ Valid | 280/300 ] loss = 10.84311, acc = 0.73907
+loss = loss_layers + (10 * lamb) * loss_logits = 2.03996 + 8.71111 * 1.01057
+[ Train | 281/300 ] loss = 6.77020, acc = 0.84512
+loss = loss_layers + (10 * lamb) * loss_logits = 2.22545 + 8.77344 * 0.51801
+[ Valid | 281/300 ] loss = 10.85308, acc = 0.74257
+loss = loss_layers + (10 * lamb) * loss_logits = 2.04484 + 8.77344 * 1.00397
+[ Train | 282/300 ] loss = 6.78362, acc = 0.85019
+loss = loss_layers + (10 * lamb) * loss_logits = 2.22155 + 8.83600 * 0.51630
+[ Valid | 282/300 ] loss = 9.54911, acc = 0.76880
+loss = loss_layers + (10 * lamb) * loss_logits = 2.04242 + 8.83600 * 0.84956
+[ Train | 283/300 ] loss = 6.66287, acc = 0.85242
+loss = loss_layers + (10 * lamb) * loss_logits = 2.21947 + 8.89878 * 0.49933
+[ Valid | 283/300 ] loss = 10.30002, acc = 0.74927
+loss = loss_layers + (10 * lamb) * loss_logits = 2.04404 + 8.89878 * 0.92777
+[ Train | 284/300 ] loss = 6.73217, acc = 0.85050
+loss = loss_layers + (10 * lamb) * loss_logits = 2.22279 + 8.96178 * 0.50318
+[ Valid | 284/300 ] loss = 9.76895, acc = 0.76939
+loss = loss_layers + (10 * lamb) * loss_logits = 2.04536 + 8.96178 * 0.86184
+[ Train | 285/300 ] loss = 6.69014, acc = 0.85060
+loss = loss_layers + (10 * lamb) * loss_logits = 2.21880 + 9.02500 * 0.49544
+[ Valid | 285/300 ] loss = 10.33707, acc = 0.75569
+loss = loss_layers + (10 * lamb) * loss_logits = 2.04698 + 9.02500 * 0.91857
+[ Train | 286/300 ] loss = 6.68167, acc = 0.85536
+loss = loss_layers + (10 * lamb) * loss_logits = 2.22533 + 9.08844 * 0.49033
+[ Valid | 286/300 ] loss = 10.97458, acc = 0.74373
+loss = loss_layers + (10 * lamb) * loss_logits = 2.04590 + 9.08844 * 0.98242
+[ Train | 287/300 ] loss = 6.74434, acc = 0.84715
+loss = loss_layers + (10 * lamb) * loss_logits = 2.22229 + 9.15211 * 0.49410
+[ Valid | 287/300 ] loss = 9.88548, acc = 0.76939
+loss = loss_layers + (10 * lamb) * loss_logits = 2.04806 + 9.15211 * 0.85635
+[ Train | 288/300 ] loss = 6.64085, acc = 0.85374
+loss = loss_layers + (10 * lamb) * loss_logits = 2.22842 + 9.21600 * 0.47878
+[ Valid | 288/300 ] loss = 9.98978, acc = 0.76851
+loss = loss_layers + (10 * lamb) * loss_logits = 2.04548 + 9.21600 * 0.86201
+[ Train | 289/300 ] loss = 6.54916, acc = 0.85516
+loss = loss_layers + (10 * lamb) * loss_logits = 2.22530 + 9.28011 * 0.46593
+[ Valid | 289/300 ] loss = 10.23300, acc = 0.75860
+loss = loss_layers + (10 * lamb) * loss_logits = 2.04654 + 9.28011 * 0.88215
+[ Train | 290/300 ] loss = 6.64656, acc = 0.85222
+loss = loss_layers + (10 * lamb) * loss_logits = 2.22465 + 9.34444 * 0.47321
+[ Valid | 290/300 ] loss = 10.42363, acc = 0.76764
+loss = loss_layers + (10 * lamb) * loss_logits = 2.04885 + 9.34444 * 0.89623
+[ Train | 291/300 ] loss = 6.64914, acc = 0.85567
+loss = loss_layers + (10 * lamb) * loss_logits = 2.22677 + 9.40900 * 0.47001
+[ Valid | 291/300 ] loss = 10.87071, acc = 0.75219
+loss = loss_layers + (10 * lamb) * loss_logits = 2.05237 + 9.40900 * 0.93722
+[ Train | 292/300 ] loss = 6.76184, acc = 0.85242
+loss = loss_layers + (10 * lamb) * loss_logits = 2.23091 + 9.47378 * 0.47826
+[ Valid | 292/300 ] loss = 10.53777, acc = 0.75656
+loss = loss_layers + (10 * lamb) * loss_logits = 2.05409 + 9.47378 * 0.89549
+[ Train | 293/300 ] loss = 6.55975, acc = 0.85790
+loss = loss_layers + (10 * lamb) * loss_logits = 2.23096 + 9.53878 * 0.45381
+[ Valid | 293/300 ] loss = 10.48825, acc = 0.75948
+loss = loss_layers + (10 * lamb) * loss_logits = 2.05030 + 9.53878 * 0.88460
+[ Train | 294/300 ] loss = 6.46616, acc = 0.86033
+loss = loss_layers + (10 * lamb) * loss_logits = 2.22954 + 9.60400 * 0.44113
+[ Valid | 294/300 ] loss = 10.24307, acc = 0.76676
+loss = loss_layers + (10 * lamb) * loss_logits = 2.05243 + 9.60400 * 0.85284
+[ Train | 295/300 ] loss = 6.55228, acc = 0.85830
+loss = loss_layers + (10 * lamb) * loss_logits = 2.23419 + 9.66944 * 0.44657
+[ Valid | 295/300 ] loss = 10.61468, acc = 0.76152
+loss = loss_layers + (10 * lamb) * loss_logits = 2.05410 + 9.66944 * 0.88532
+[ Train | 296/300 ] loss = 6.48943, acc = 0.85617
+loss = loss_layers + (10 * lamb) * loss_logits = 2.23266 + 9.73511 * 0.43726
+[ Valid | 296/300 ] loss = 10.52794, acc = 0.76297
+loss = loss_layers + (10 * lamb) * loss_logits = 2.05534 + 9.73511 * 0.87031
+[ Train | 297/300 ] loss = 6.59853, acc = 0.85516
+loss = loss_layers + (10 * lamb) * loss_logits = 2.23871 + 9.80100 * 0.44483
+[ Valid | 297/300 ] loss = 11.15785, acc = 0.75743
+loss = loss_layers + (10 * lamb) * loss_logits = 2.05749 + 9.80100 * 0.92851
+[ Train | 298/300 ] loss = 6.59398, acc = 0.85627
+loss = loss_layers + (10 * lamb) * loss_logits = 2.23691 + 9.86711 * 0.44158
+[ Valid | 298/300 ] loss = 10.54856, acc = 0.76414
+loss = loss_layers + (10 * lamb) * loss_logits = 2.05536 + 9.86711 * 0.86076
+[ Train | 299/300 ] loss = 6.37617, acc = 0.86307
+loss = loss_layers + (10 * lamb) * loss_logits = 2.23377 + 9.93344 * 0.41702
+[ Valid | 299/300 ] loss = 10.44661, acc = 0.76618
+loss = loss_layers + (10 * lamb) * loss_logits = 2.05633 + 9.93344 * 0.84465
+[ Train | 300/300 ] loss = 6.41239, acc = 0.86124
+loss = loss_layers + (10 * lamb) * loss_logits = 2.23870 + 10.00000 * 0.41737
+[ Valid | 300/300 ] loss = 10.40657, acc = 0.76210
+loss = loss_layers + (10 * lamb) * loss_logits = 2.05981 + 10.00000 * 0.83468
+Finish training
